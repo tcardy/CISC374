@@ -1,0 +1,604 @@
+﻿Log file open, 04/26/17 13:13:38
+LogInit:Display: Running engine for game: Lionfish
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1903681243) SRandInit(-1903681243).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.198081
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.26-17.13.40:952][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-17.13.40:952][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.26-17.13.41:031][  0]LogInit: Computer: JERYTHELAPTOP
+[2017.04.26-17.13.41:031][  0]LogInit: User: Jacob
+[2017.04.26-17.13.41:031][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.26-17.13.41:031][  0]LogInit: High frequency timer resolution =1.462100 MHz
+[2017.04.26-17.13.41:032][  0]LogMemory: Memory total: Physical=5.4GB (6GB approx)
+[2017.04.26-17.13.41:032][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.26-17.13.41:032][  0]LogMemory: Process Physical Memory: 262.90 MB used, 262.90 MB peak
+[2017.04.26-17.13.41:032][  0]LogMemory: Process Virtual Memory: 262.40 MB used, 262.40 MB peak
+[2017.04.26-17.13.41:032][  0]LogMemory: Physical Memory: 3040.17 MB used,  2532.30 MB free, 5572.47 MB total
+[2017.04.26-17.13.41:032][  0]LogMemory: Virtual Memory: 643.97 MB used,  2532.30 MB free, 134217728.00 MB total
+[2017.04.26-17.13.41:407][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.26-17.13.50:422][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.26-17.13.50:465][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8330' (Feature Level 11_0)
+[2017.04.26-17.13.50:465][  0]LogD3D11RHI:       495/0/2786 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.26-17.13.50:470][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.26-17.13.50:470][  0]LogD3D11RHI:       0/0/2786 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.26-17.13.50:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.26-17.13.50:489][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.26-17.13.50:489][  0]LogD3D11RHI:     GPU DeviceId: 0x9832 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.26-17.13.50:489][  0]LogWindows: EnumDisplayDevices:
+[2017.04.26-17.13.50:490][  0]LogWindows:    0. 'AMD Radeon HD 8330' (P:1 D:1)
+[2017.04.26-17.13.50:492][  0]LogWindows:    1. 'AMD Radeon HD 8330' (P:0 D:0)
+[2017.04.26-17.13.50:493][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.04.26-17.13.50:493][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8330
+[2017.04.26-17.13.50:493][  0]LogD3D11RHI:   Driver Version: 15.201.1101.1002 (internal:15.201.1101.1002, unified:15.201.1101.1002)
+[2017.04.26-17.13.50:493][  0]LogD3D11RHI:      Driver Date: 8-21-2015
+[2017.04.26-17.13.50:493][  0]LogRHI: Texture pool is 346 MB (70% of 495 MB)
+[2017.04.26-17.13.50:603][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.26-17.13.50:641][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.04.26-17.13.50:648][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Intermediate/Shaders/WorkingDirectory/224/).
+[2017.04.26-17.13.50:649][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jacob/AppData/Local/Temp/UnrealShaderWorkingDir/9D4376D045905DEFCD7311BDBFF3314D/'.
+[2017.04.26-17.13.50:649][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.26-17.14.00:045][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.26-17.14.00:344][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.26-17.14.00:637][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.26-17.14.00:936][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.26-17.14.01:291][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.26-17.14.01:600][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.26-17.14.01:906][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.26-17.14.02:206][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.26-17.14.02:453][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.26-17.14.02:810][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.26-17.14.03:106][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.26-17.14.03:403][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.26-17.14.03:702][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.26-17.14.03:999][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.26-17.14.04:299][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.26-17.14.04:894][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.26-17.14.04:894][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.26-17.14.05:105][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.26-17.14.05:566][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.26-17.14.05:772][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.26-17.14.06:067][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.26-17.14.06:362][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.26-17.14.06:654][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.26-17.14.06:997][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.26-17.14.06:997][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.26-17.14.09:428][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.26-17.14.09:663][  0]LogDerivedDataCache: Loaded boot cache 0.23s 50MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-17.14.09:663][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.26-17.14.09:663][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.26-17.14.09:664][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.26-17.14.09:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.26-17.14.09:664][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.26-17.14.09:759][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.26-17.14.09:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.26-17.14.09:820][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.26-17.14.09:876][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-17.14.09:876][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.26-17.14.12:680][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.26-17.14.12:696][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.26-17.14.13:709][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.26-17.14.13:944][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.26-17.14.14:192][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.26-17.14.14:192][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.26-17.14.14:192][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.26-17.14.16:946][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lionfish, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3667421609
+[2017.04.26-17.14.17:101][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2017.04.26-17.14.17:366][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.139925 seconds
+[2017.04.26-17.14.17:393][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.26-17.14.17:393][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.26-17.14.17:393][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.26-17.14.17:766][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.26-17.14.27:849][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.26-17.14.28:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.26-17.14.30:161][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.26-17.14.32:108][  0]SourceControl: Info Source control is disabled
+[2017.04.26-17.14.32:240][  0]SourceControl: Info Source control is disabled
+[2017.04.26-17.14.32:491][  0]SourceControl: Info Source control is disabled
+[2017.04.26-17.14.32:732][  0]SourceControl: Info Source control is disabled
+[2017.04.26-17.14.39:173][  0]LogEngine: Initializing Engine...
+[2017.04.26-17.14.39:175][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.26-17.14.40:324][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.26-17.14.40:349][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.26-17.14.40:390][  0]LogInit: FAudioDevice initialized.
+[2017.04.26-17.14.40:498][  0]LogDerivedDataCache: Saved boot cache 0.11s 50MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.26-17.14.40:545][  0]LogInit: Texture streaming: Enabled
+[2017.04.26-17.14.41:076][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.26-17.14.41:547][  0]LogInit: Transaction tracking system initialized
+[2017.04.26-17.14.43:411][  0]BlueprintLog: New page: Editor Load
+[2017.04.26-17.14.48:312][  0]LocalizationService: Info Localization service is disabled
+[2017.04.26-17.14.52:704][  0]LogConsoleResponse:Display: 
+[2017.04.26-17.14.53:332][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.26-17.14.53:333][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.26-17.14.54:105][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/' took 0.04s
+[2017.04.26-17.14.58:908][  0]SourceControl: Info Source control is disabled
+[2017.04.26-17.14.58:909][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.26-17.14.58:913][  0]LightingResults: New page: Lighting Build
+[2017.04.26-17.14.59:130][  0]MapCheck: New page: Map Check
+[2017.04.26-17.14.59:130][  0]LightingResults: New page: Lighting Build
+[2017.04.26-17.15.03:520][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.26-17.15.03:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.26-17.15.03:649][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.26-17.15.03:925][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 275.091ms to complete.
+[2017.04.26-17.15.03:926][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 5.017
+[2017.04.26-17.15.04:671][  0]LogCollectionManager: Loaded 0 collections in 0.008543 seconds
+[2017.04.26-17.15.04:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Saved/Collections/' took 0.01s
+[2017.04.26-17.15.04:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Developers/Jacob/Collections/' took 0.01s
+[2017.04.26-17.15.04:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Collections/' took 0.01s
+[2017.04.26-17.15.04:953][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2017.04.26-17.15.05:002][  0]LogContentBrowser: Native class hierarchy populated in 0.0484 seconds. Added 2245 classes and 453 folders.
+[2017.04.26-17.15.05:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.26-17.15.05:017][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.26-17.15.05:365][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.04.26-17.15.06:537][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.04.26-17.15.06:774][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.04.26-17.15.07:043][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.26-17.15.07:066][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.26-17.15.07:330][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.04.26-17.15.07:331][  0]LogLoad: (Engine Initialization) Total time: 93.76 seconds
+[2017.04.26-17.15.07:332][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.56 seconds
+[2017.04.26-17.15.07:332][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.26-17.15.07:674][  0]LogOcInput: OculusInput pre-init called
+[2017.04.26-17.15.07:716][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.26-17.15.07:719][  0]LogSlate: Took 0.000739 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-17.15.07:736][  0]LogSlate: Took 0.001033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.26-17.15.07:803][  0]LogSlate: Took 0.046565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.26-17.15.08:312][  0]LogSlate: Took 0.000872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-17.15.08:476][  0]LogRenderer: Reallocating scene render targets to support 808x372 NumSamples 1 (Frame:2).
+[2017.04.26-17.15.11:413][  6]LogAssetRegistry: Asset discovery search completed in 54.3349 seconds
+[2017.04.26-17.15.11:413][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000035 seconds (found 0 objects)
+[2017.04.26-17.15.11:413][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2017.04.26-17.17.34:936][433]LogSlate: Took 0.000657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-17.17.35:070][433]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: Model, ItemCount : 66
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2017.04.26-17.17.35:471][433]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2017.04.26-17.17.35:536][433]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.17.35:790][433]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.18.14:717][433]LogSlate: Took 0.000725 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.26-17.18.28:174][433]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.18.28:282][433]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.18.28:364][433]FBXImport:Error: Error Mesh contains root bone as root but animation doesn't contain the root track.
+Import failed. 
+[2017.04.26-17.18.28:364][433]FBXImport:Error: Error Import failed. 
+[2017.04.26-17.18.32:051][433]LogAssetTools:Warning: Failed to import '../../../../../../Users/Jacob/Desktop/swimming.fbx'. Failed to create asset '/Game/swimming'.
+Please see Output Log for details.
+[2017.04.26-17.18.45:827][506]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: Model, ItemCount : 66
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2017.04.26-17.18.45:853][506]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2017.04.26-17.18.45:874][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.18.46:010][506]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.00:454][506]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.19.00:570][506]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.00:597][506]FBXImport:Error: Error Mesh contains Root bone as root but animation doesn't contain the root track.
+Import failed. 
+[2017.04.26-17.19.00:597][506]FBXImport:Error: Error Import failed. 
+[2017.04.26-17.19.02:263][506]LogAssetTools:Warning: Failed to import '../../../../../../Users/Jacob/Desktop/swimming.fbx'. Failed to create asset '/Game/swimming'.
+Please see Output Log for details.
+[2017.04.26-17.19.15:041][620]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: Model, ItemCount : 66
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2017.04.26-17.19.15:065][620]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2017.04.26-17.19.15:086][620]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.19.15:199][620]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.25:210][620]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.19.25:325][620]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.25:352][620]FBXImport:Error: Error Mesh contains root bone as root but animation doesn't contain the root track.
+Import failed. 
+[2017.04.26-17.19.25:352][620]FBXImport:Error: Error Import failed. 
+[2017.04.26-17.19.27:555][620]LogAssetTools:Warning: Failed to import '../../../../../../Users/Jacob/Desktop/swimming.fbx'. Failed to create asset '/Game/swimming'.
+Please see Output Log for details.
+[2017.04.26-17.19.44:022][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: Model, ItemCount : 66
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2017.04.26-17.19.44:045][722]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2017.04.26-17.19.44:066][722]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.19.44:180][722]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.55:711][722]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.19.55:828][722]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.19.55:856][722]FBXImport:Error: Error Mesh contains root bone as root but animation doesn't contain the root track.
+Import failed. 
+[2017.04.26-17.19.55:856][722]FBXImport:Error: Error Import failed. 
+[2017.04.26-17.19.57:883][722]LogAssetTools:Warning: Failed to import '../../../../../../Users/Jacob/Desktop/swimming.fbx'. Failed to create asset '/Game/swimming'.
+Please see Output Log for details.
+[2017.04.26-17.20.53:524][912]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: Model, ItemCount : 66
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: NodeAttribute, ItemCount : 66
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: AnimationCurveNode, ItemCount : 55
+[2017.04.26-17.20.53:552][912]LogFbx: ItemName: AnimationCurve, ItemCount : 321
+[2017.04.26-17.20.53:573][912]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.20.53:689][912]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.21.08:523][912]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.21.08:642][912]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.21.08:673][912]FBXImport:Error: Error Mesh contains root bone as root but animation doesn't contain the root track.
+Import failed. 
+[2017.04.26-17.21.08:673][912]FBXImport:Error: Error Import failed. 
+[2017.04.26-17.21.10:044][912]LogAssetTools:Warning: Failed to import '../../../../../../Users/Jacob/Desktop/swimming.fbx'. Failed to create asset '/Game/swimming'.
+Please see Output Log for details.
+[2017.04.26-17.21.15:782][960]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Shared/Editor/FbxErrors/index.html?utm_source=editor&utm_medium=docs&utm_campaign=msg_log
+[2017.04.26-17.45.33:028][362]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jacob/Desktop/swimming.fbx)
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: NodeAttribute, ItemCount : 69
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: Model, ItemCount : 70
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: AnimationCurveNode, ItemCount : 162
+[2017.04.26-17.45.33:060][362]LogFbx: ItemName: AnimationCurve, ItemCount : 486
+[2017.04.26-17.45.33:084][362]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.45.33:382][362]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.45.44:486][362]LogFbx: Loading FBX Scene from ../../../../../../Users/Jacob/Desktop/swimming.fbx
+[2017.04.26-17.45.44:670][362]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.26-17.45.44:711][362]LogFbx: =================================================
+[2017.04.26-17.45.44:711][362]LogFbx: Dumping Node START [Cube] 
+[2017.04.26-17.45.44:711][362]LogFbx: 	Total Deformer Count 824643056.
+[2017.04.26-17.45.44:711][362]LogFbx: 	Attribute (Cube) Type (4).
+[2017.04.26-17.45.44:711][362]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.04.26-17.45.44:711][362]LogFbx: Dumping Node END [Cube]
+[2017.04.26-17.45.44:718][362]LogFbx: =================================================
+[2017.04.26-17.45.44:718][362]LogFbx: Dumping Node START [Cube] 
+[2017.04.26-17.45.44:718][362]LogFbx: 	Total Deformer Count 824639648.
+[2017.04.26-17.45.44:718][362]LogFbx: 	Attribute (Cube) Type (4).
+[2017.04.26-17.45.44:718][362]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.04.26-17.45.44:718][362]LogFbx: Dumping Node END [Cube]
+[2017.04.26-17.45.44:769][362]LogLinker: Can't find file '/Game/Material'
+[2017.04.26-17.45.44:770][362]LogLinker: Can't find file '/Game/Material'
+[2017.04.26-17.45.44:828][362]LogMaterial:Warning: Material /Game/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2017.04.26-17.45.44:848][362]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.26-17.45.44:860][362]LogTemp:Display: Added material ShaderMap 0x000001F6333ABC80 with Material 0x000001F62C425300 to ShaderMapsBeingCompiled
+[2017.04.26-17.45.45:153][362]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000001F6333ABC80
+[2017.04.26-17.45.45:173][362]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.26-17.45.45:267][362]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.26-17.45.45:271][362]LogTemp:Display: Added material ShaderMap 0x000001F633D1FC80 with Material 0x000001F62C425300 to ShaderMapsBeingCompiled
+[2017.04.26-17.45.45:432][362]LogTemp:Display: Kicking off shader compilation for Material, GameThreadShaderMap 0x000001F633D1FC80
+[2017.04.26-17.45.45:466][362]LogFbx: Triangulating skeletal mesh Cube
+[2017.04.26-17.45.45:587][362]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2017.04.26-17.45.45:672][362]LogSkeletalMesh: Section 0: 8 vertices, 1 active bones
+[2017.04.26-17.45.45:673][362]LogSkeletalMesh: Section 0: Material=0, 12 triangles
+[2017.04.26-17.45.45:715][362]LogLinker: Can't find file '/Game/swimming_PhysicsAsset'
+[2017.04.26-17.45.45:716][362]LogLinker: Can't find file '/Game/swimming_PhysicsAsset'
+[2017.04.26-17.45.45:757][362]LogAnimation:Warning: Cube : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.45.58:367][362]LogSlate: Took 0.001229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.26-17.45.58:420][362]LoadErrors: Info The Animation  ThirdPerson_Jump needs resave.
+[2017.04.26-17.45.58:431][362]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.04.26-17.45.58:451][362]LoadErrors: Info The Animation  ThirdPersonJump_Loop needs resave.
+[2017.04.26-17.45.58:461][362]LoadErrors: Info The Animation  ThirdPersonJump_Start needs resave.
+[2017.04.26-17.45.58:471][362]LoadErrors: Info The Animation  ThirdPersonIdle needs resave.
+[2017.04.26-17.45.58:480][362]LoadErrors: Info The Animation  ThirdPersonRun needs resave.
+[2017.04.26-17.45.58:491][362]LoadErrors: Info The Animation  ThirdPersonWalk needs resave.
+[2017.04.26-17.46.02:231][362]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.03:891][362]LogFbx: =================================================
+[2017.04.26-17.46.03:891][362]LogFbx: Dumping Node START [Cube] 
+[2017.04.26-17.46.03:891][362]LogFbx: 	Total Deformer Count 829393936.
+[2017.04.26-17.46.03:891][362]LogFbx: 	Attribute (Cube) Type (4).
+[2017.04.26-17.46.03:891][362]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.04.26-17.46.03:891][362]LogFbx: Dumping Node END [Cube]
+[2017.04.26-17.46.03:898][362]LogFbx: =================================================
+[2017.04.26-17.46.03:898][362]LogFbx: Dumping Node START [Cube] 
+[2017.04.26-17.46.03:898][362]LogFbx: 	Total Deformer Count 829395952.
+[2017.04.26-17.46.03:898][362]LogFbx: 	Attribute (Cube) Type (4).
+[2017.04.26-17.46.03:898][362]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2017.04.26-17.46.03:898][362]LogFbx: Dumping Node END [Cube]
+[2017.04.26-17.46.03:913][362]LogFbx: SortedLinks :(0) Cube
+[2017.04.26-17.46.03:925][362]LogFbx: Parsing AnimStack Armature|Armature|mixamo.com|Layer0
+[2017.04.26-17.46.03:998][362]LogLinker: Can't find file '/Game/swimming_Anim'
+[2017.04.26-17.46.03:999][362]LogLinker: Can't find file '/Game/swimming_Anim'
+[2017.04.26-17.46.04:117][362]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/swimming_Anim.swimming_Anim
+[2017.04.26-17.46.04:266][362]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.26-17.46.04:266][362]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2017.04.26-17.46.04:266][362]FBXImport:Warning: Warning Mesh 'Cube' has no UV set. Creating a default set. 
+[2017.04.26-17.46.04:836][363]LogTemp:Display: Finished compile of shader map 0x000001F6333ABC80
+[2017.04.26-17.46.04:836][363]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000001F6333ABC80, marking material Material as finished
+[2017.04.26-17.46.04:836][363]LogTemp:Display: Marking material as finished 0x000001F62C425300
+[2017.04.26-17.46.11:125][363]LoadErrors:Error: Error The Skeleton  UE4_Mannequin_Skeleton is missing bones that SkeletalMesh  SK_Mannequin needs. They will be added now. Please save the Skeleton!
+[2017.04.26-17.46.11:135][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:140][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:145][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:150][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:156][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:161][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:167][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:172][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:178][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:183][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:188][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:193][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:199][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:204][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:209][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:214][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:219][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:225][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:230][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:235][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:240][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:245][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:250][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:255][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:261][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:266][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:271][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:276][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:281][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:287][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:292][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:298][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:304][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:309][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:314][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:320][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:325][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:330][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:335][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:341][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:346][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:351][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:356][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:361][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:366][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:373][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:378][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:384][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:390][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:395][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:400][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:405][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:410][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:416][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:422][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:427][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:432][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:437][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:443][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:448][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:453][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:458][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:463][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:468][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:474][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:479][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:484][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.11:489][363]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.28:153][491]LogTemp:Display: Finished compile of shader map 0x000001F633D1FC80
+[2017.04.26-17.46.28:154][491]LogTemp:Display: Shader map Material complete, GameThreadShaderMap 0x000001F633D1FC80, marking material Material as finished
+[2017.04.26-17.46.28:154][491]LogTemp:Display: Marking material as finished 0x000001F62C425300
+[2017.04.26-17.46.30:540][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.157
+[2017.04.26-17.46.30:548][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_Jump] ([1] browsable assets)...
+[2017.04.26-17.46.30:611][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.30:687][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump]
+[2017.04.26-17.46.30:687][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_Jump]
+[2017.04.26-17.46.30:794][507]LogSavePackage: Save=72.10ms
+[2017.04.26-17.46.30:794][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPerson_Jump_Auto16EE28D2944A89B4E336D2BBFF11B155C.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_Jump_Auto1.uasset'
+[2017.04.26-17.46.30:797][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_Jump_Auto1.uasset
+[2017.04.26-17.46.30:802][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.04.26-17.46.30:802][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2017.04.26-17.46.30:846][507]LogSavePackage: Save=17.17ms
+[2017.04.26-17.46.30:847][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/UE4_Mannequin_Skeleton_Auto1AC01BDD84AB2BFA493BEBCA55F69DF58.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2017.04.26-17.46.30:850][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2017.04.26-17.46.30:853][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonJump_Loop] ([1] browsable assets)...
+[2017.04.26-17.46.30:853][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.30:912][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop]
+[2017.04.26-17.46.30:912][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonJump_Loop]
+[2017.04.26-17.46.31:002][507]LogSavePackage: Save=59.46ms
+[2017.04.26-17.46.31:002][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPersonJump_Loop_Auto18871E100412D4A4E0E7065B30F1A0B45.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonJump_Loop_Auto1.uasset'
+[2017.04.26-17.46.31:005][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonJump_Loop_Auto1.uasset
+[2017.04.26-17.46.31:008][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonJump_Start] ([1] browsable assets)...
+[2017.04.26-17.46.31:008][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.31:066][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start]
+[2017.04.26-17.46.31:066][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonJump_Start]
+[2017.04.26-17.46.31:192][507]LogSavePackage: Save=95.11ms
+[2017.04.26-17.46.31:192][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPersonJump_Start_Auto1283BFB064759D961F460398082D883EF.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonJump_Start_Auto1.uasset'
+[2017.04.26-17.46.31:196][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonJump_Start_Auto1.uasset
+[2017.04.26-17.46.31:198][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D] ([1] browsable assets)...
+[2017.04.26-17.46.31:343][507]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/Mannequin/Animations/ThirdPerson_IdleRun_2D.ThirdPerson_IdleRun_2D]
+[2017.04.26-17.46.31:343][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D]
+[2017.04.26-17.46.31:425][507]LogSavePackage: Save=49.09ms
+[2017.04.26-17.46.31:425][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPerson_IdleRun_2D_Auto101D1B43A4B479F0A7AC18FAD8E47E80B.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D_Auto1.uasset'
+[2017.04.26-17.46.31:429][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_IdleRun_2D_Auto1.uasset
+[2017.04.26-17.46.31:431][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonIdle] ([1] browsable assets)...
+[2017.04.26-17.46.31:431][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.31:495][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle]
+[2017.04.26-17.46.31:495][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonIdle]
+[2017.04.26-17.46.31:606][507]LogSavePackage: Save=57.87ms
+[2017.04.26-17.46.31:606][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPersonIdle_Auto120DD2BC14162B7469500A299E3D22B46.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonIdle_Auto1.uasset'
+[2017.04.26-17.46.31:611][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonIdle_Auto1.uasset
+[2017.04.26-17.46.31:613][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonRun] ([1] browsable assets)...
+[2017.04.26-17.46.31:614][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.31:675][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun]
+[2017.04.26-17.46.31:675][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonRun]
+[2017.04.26-17.46.31:760][507]LogSavePackage: Save=54.43ms
+[2017.04.26-17.46.31:778][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPersonRun_Auto1284ABB7D47DFB97D5658E6BABC0A2F36.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonRun_Auto1.uasset'
+[2017.04.26-17.46.31:782][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonRun_Auto1.uasset
+[2017.04.26-17.46.31:784][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPersonWalk] ([1] browsable assets)...
+[2017.04.26-17.46.31:785][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.31:844][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk]
+[2017.04.26-17.46.31:844][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPersonWalk]
+[2017.04.26-17.46.31:954][507]LogSavePackage: Save=55.61ms
+[2017.04.26-17.46.31:954][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/ThirdPersonWalk_Auto15AAB3684492B817B3624219198D4F702.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonWalk_Auto1.uasset'
+[2017.04.26-17.46.31:959][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Mannequin/Animations/ThirdPersonWalk_Auto1.uasset
+[2017.04.26-17.46.31:961][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/swimming] ([1] browsable assets)...
+[2017.04.26-17.46.32:057][507]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/swimming.swimming]
+[2017.04.26-17.46.32:057][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/swimming]
+[2017.04.26-17.46.32:057][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/swimming" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-17.46.32:113][507]LogSavePackage: Save=50.39ms
+[2017.04.26-17.46.32:113][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/swimming_Auto1EB23597F420200130BFAF18DD1F0B064.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Auto1.uasset'
+[2017.04.26-17.46.32:118][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Auto1.uasset
+[2017.04.26-17.46.32:120][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material] ([1] browsable assets)...
+[2017.04.26-17.46.32:203][507]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material.Material]
+[2017.04.26-17.46.32:203][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material]
+[2017.04.26-17.46.32:206][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Material_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-17.46.32:283][507]LogSavePackage: Save=68.69ms
+[2017.04.26-17.46.32:283][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Material_Auto1B855851843CF8F9A8D7737A64CC75E02.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Material_Auto1.uasset'
+[2017.04.26-17.46.32:287][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/Material_Auto1.uasset
+[2017.04.26-17.46.32:290][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/swimming_PhysicsAsset] ([1] browsable assets)...
+[2017.04.26-17.46.32:290][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/swimming_PhysicsAsset]
+[2017.04.26-17.46.32:315][507]LogSavePackage: Save=18.98ms
+[2017.04.26-17.46.32:315][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/swimming_PhysicsAsset_Auto1E24453124247602E90BA15A5F2B68B67.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_PhysicsAsset_Auto1.uasset'
+[2017.04.26-17.46.32:320][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_PhysicsAsset_Auto1.uasset
+[2017.04.26-17.46.32:322][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/swimming_Anim] ([1] browsable assets)...
+[2017.04.26-17.46.32:323][507]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.32:381][507]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/swimming_Anim.swimming_Anim]
+[2017.04.26-17.46.32:381][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/swimming_Anim]
+[2017.04.26-17.46.32:381][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/swimming_Anim" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Anim_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.26-17.46.32:434][507]LogSavePackage: Save=46.37ms
+[2017.04.26-17.46.32:434][507]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/swimming_Anim_Auto1DCFCD1F24F28F10E42BAE09C5ECE8E22.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Anim_Auto1.uasset'
+[2017.04.26-17.46.32:439][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/swimming_Anim_Auto1.uasset
+[2017.04.26-17.46.32:439][507]LogFileHelpers: Auto-saving content packages took 1.896
+[2017.04.26-17.46.36:262][544]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:322][545]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:411][546]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:547][547]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:700][548]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:863][549]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.36:955][550]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.37:092][551]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.37:130][552]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.37:234][553]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.37:357][554]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.37:477][555]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:152][706]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:183][707]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:239][708]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:339][709]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:464][710]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:587][711]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:728][712]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.41:836][713]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:207][715]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:318][716]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:454][717]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:586][718]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:721][719]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.42:855][720]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.43:128][722]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.44:022][723]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2017.04.26-17.46.45:029][723]LogAnimation:Warning: root : Missing joint on skeleton.  Make sure to assign to the skeleton.
+[2017.04.26-17.46.48:996][723]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2017.04.26-17.46.49:004][723]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/swimming_Anim.swimming_Anim
+[2017.04.26-17.46.49:006][723]LoadErrors: Info The Animation  AnimSequence_1 needs resave.
+[2017.04.26-17.46.50:463][723]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.446 s
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: 
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: Ensure condition failed: !bUseRawDataOnly [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Animation\AnimSequence.cpp] [Line: 2187]
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: Anim Compression failed for Sequence 'AnimSequence /Game/swimming_Anim.swimming_Anim' Guid:9983D765E574301BD75CC7920F38D366 CompressedDebugData:
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: 	Original Anim:AnimSequence /Engine/Transient.AnimSequence_1
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: 	AdditiveSetting:0
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: 	Compression Scheme:AnimCompress_BitwiseCompressOnly /Engine/Transient.AnimSequence_1:AnimCompress_BitwiseCompressOnly_0
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: 	RawDataGuid:9983D765E574301BD75CC7920F38D366
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: Stack: 
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063C195E6
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000639C9B82
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000639DB666
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4505A3
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E44B39C
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E44B157
+[2017.04.26-17.46.50:463][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E43E4B4
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4C8DEC
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4E115B
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4AFBB8
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4B6019
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000005E4B5B8D
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Persona.dll!0x000000004E87F561
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Persona.dll!0x000000004E91E9CA
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Persona.dll!0x000000004E7FCF4E
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-AnimationEditor.dll!0x000000004BB6A164
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-AnimationEditor.dll!0x000000004BB61FAB
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000514DAD97
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006214EAA3
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000005147E08A
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000050637548
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505EAA27
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505F0947
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505ED201
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000050641189
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505E9031
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505EF7DF
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000505ED34A
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000050650880
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000506413EA
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000062DE4A7E
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000062DB444E
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000062E558E4
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000062E40435
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000062E2F7B9
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063C0CDA7
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063BF67C1
+[2017.04.26-17.46.50:464][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063C0EA1C
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063BF26E9
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: USER32.dll!0x000000009FF41C24
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: USER32.dll!0x000000009FF4156C
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063C0F326
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor.exe!0x00000000DBB6D790
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor.exe!0x00000000DBB5EB40
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor.exe!0x00000000DBB5EBBA
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor.exe!0x00000000DBB70A29
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: UE4Editor.exe!0x00000000DBB722B6
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A0958364
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: ntdll.dll!0x00000000A0AD70D1
+[2017.04.26-17.46.50:465][723]LogOutputDevice:Error: 
+[2017.04.26-17.46.50:472][723]LogStats:                SubmitErrorReport -  0.000 s
