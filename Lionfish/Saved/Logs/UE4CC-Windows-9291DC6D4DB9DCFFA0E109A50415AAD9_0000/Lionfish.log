@@ -1,0 +1,450 @@
+﻿Log file open, 04/29/17 20:00:39
+LogInit:Display: Running engine for game: Lionfish
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1187494094) SRandInit(-1187494093).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.085938
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.30-00.00.40:595][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-00.00.40:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.30-00.00.40:602][  0]LogInit: Computer: TOMLAPTOP-PC
+[2017.04.30-00.00.40:602][  0]LogInit: User: Tom
+[2017.04.30-00.00.40:602][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.30-00.00.40:602][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.04.30-00.00.40:602][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.30-00.00.40:602][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-00.00.40:602][  0]LogMemory: Process Physical Memory: 264.55 MB used, 264.55 MB peak
+[2017.04.30-00.00.40:602][  0]LogMemory: Process Virtual Memory: 262.71 MB used, 262.71 MB peak
+[2017.04.30-00.00.40:602][  0]LogMemory: Physical Memory: 6718.75 MB used,  9529.00 MB free, 16247.75 MB total
+[2017.04.30-00.00.40:602][  0]LogMemory: Virtual Memory: 645.11 MB used,  9529.00 MB free, 134217728.00 MB total
+[2017.04.30-00.00.40:697][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.30-00.00.41:348][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.30-00.00.41:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.04.30-00.00.41:942][  0]LogD3D11RHI:       6108/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.30-00.00.41:952][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.30-00.00.41:952][  0]LogD3D11RHI:       128/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.30-00.00.41:954][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.30-00.00.41:954][  0]LogD3D11RHI:       0/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.30-00.00.41:954][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.30-00.00.41:959][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.30-00.00.41:959][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.30-00.00.41:959][  0]LogWindows: EnumDisplayDevices:
+[2017.04.30-00.00.41:959][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.30-00.00.41:959][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.30-00.00.41:960][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.30-00.00.41:960][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.30-00.00.41:960][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.04.30-00.00.41:960][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.30-00.00.41:960][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.30-00.00.41:960][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.30-00.00.42:521][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.30-00.00.42:561][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.30-00.00.42:562][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Repo/CISC374_Team4/Lionfish/Intermediate/Shaders/WorkingDirectory/12856/).
+[2017.04.30-00.00.42:563][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/12FE7AC14D9CFAE3A1251B9EA22FD4A6/'.
+[2017.04.30-00.00.42:563][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.30-00.00.43:656][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.30-00.00.43:714][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.30-00.00.43:772][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.30-00.00.43:831][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.30-00.00.43:888][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.30-00.00.43:944][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.30-00.00.44:000][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.30-00.00.44:058][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.30-00.00.44:105][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.30-00.00.44:160][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.30-00.00.44:217][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.30-00.00.44:272][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.30-00.00.44:326][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.30-00.00.44:385][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.30-00.00.44:439][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.30-00.00.44:551][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.30-00.00.44:551][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.30-00.00.44:590][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.30-00.00.44:692][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.30-00.00.44:728][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.30-00.00.44:784][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.30-00.00.44:840][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.30-00.00.44:897][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.30-00.00.44:949][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.30-00.00.44:949][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.30-00.00.45:417][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repo/CISC374_Team4/Lionfish/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repo/CISC374_Team4/Lionfish/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.30-00.00.45:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.30-00.00.45:486][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.30-00.00.45:498][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.30-00.00.45:507][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.30-00.00.45:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-00.00.45:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-00.00.45:793][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-00.00.45:796][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.30-00.00.46:012][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.30-00.00.46:059][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.30-00.00.46:109][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.30-00.00.46:109][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.30-00.00.46:109][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.30-00.00.46:652][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lionfish, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3667421609
+[2017.04.30-00.00.46:701][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.04.30-00.00.46:743][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.015741 seconds
+[2017.04.30-00.00.46:749][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.30-00.00.46:749][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.30-00.00.46:749][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.30-00.00.46:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.30-00.00.48:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.30-00.00.48:518][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.30-00.00.48:984][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.30-00.00.49:371][  0]SourceControl: Info Source control is disabled
+[2017.04.30-00.00.51:435][  0]LogEngine: Initializing Engine...
+[2017.04.30-00.00.51:436][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.30-00.00.51:667][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.30-00.00.51:677][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.00.51:691][  0]LogInit: FAudioDevice initialized.
+[2017.04.30-00.00.51:717][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.30-00.00.51:722][  0]LogInit: Texture streaming: Enabled
+[2017.04.30-00.00.51:821][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.30-00.00.51:912][  0]LogInit: Transaction tracking system initialized
+[2017.04.30-00.00.52:269][  0]BlueprintLog: New page: Editor Load
+[2017.04.30-00.00.53:172][  0]LocalizationService: Info Localization service is disabled
+[2017.04.30-00.00.53:849][  0]LogConsoleResponse:Display: 
+[2017.04.30-00.00.53:980][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.30-00.00.53:980][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.30-00.00.54:209][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/' took 0.01s
+[2017.04.30-00.00.55:279][  0]Cmd: MAP LOAD FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-00.00.55:279][  0]LightingResults: New page: Lighting Build
+[2017.04.30-00.00.55:320][  0]MapCheck: New page: Map Check
+[2017.04.30-00.00.55:320][  0]LightingResults: New page: Lighting Build
+[2017.04.30-00.00.55:815][  0]LogLinker:Warning: Asset 'D:/Repo/CISC374_Team4/Lionfish/Content/Meshes/Water_04/Water/Textures/water.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.30-00.00.56:146][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.30-00.00.56:175][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-00.00.56:175][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-00.00.56:220][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.488ms to complete.
+[2017.04.30-00.00.56:220][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.941
+[2017.04.30-00.00.56:405][  0]LogCollectionManager: Loaded 0 collections in 0.001775 seconds
+[2017.04.30-00.00.56:485][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Saved/Collections/' took 0.01s
+[2017.04.30-00.00.56:485][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/Developers/Tom/Collections/' took 0.01s
+[2017.04.30-00.00.56:485][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/Collections/' took 0.01s
+[2017.04.30-00.00.56:485][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.30-00.00.56:493][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2245 classes and 453 folders.
+[2017.04.30-00.00.56:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.30-00.00.56:497][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.30-00.00.56:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.30-00.00.56:600][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.30-00.00.56:644][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.30-00.00.56:695][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.30-00.00.56:705][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.30-00.00.56:784][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.30-00.00.56:785][  0]LogLoad: (Engine Initialization) Total time: 19.36 seconds
+[2017.04.30-00.00.56:785][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
+[2017.04.30-00.00.56:785][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.30-00.00.56:785][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.30-00.00.57:124][  0]LogOcInput: OculusInput pre-init called
+[2017.04.30-00.00.57:153][  0]SourceControl: Info On branch master
+[2017.04.30-00.00.57:153][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.04.30-00.00.57:153][  0]SourceControl: Info Changes not staged for commit:
+[2017.04.30-00.00.57:153][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.30-00.00.57:153][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.30-00.00.57:153][  0]SourceControl: Info 	modified:   Lionfish/Config/DefaultEngine.ini
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Intermediate/CachedAssetRegistry.bin
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/AutoScreenshot.png
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto2.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto3.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/Editor.ini
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/Engine.ini
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	modified:   Lionfish/Saved/Logs/Lionfish.log
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-11.48.49.log
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-11.55.47.log
+[2017.04.30-00.00.57:154][  0]SourceControl: Info Untracked files:
+[2017.04.30-00.00.57:154][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-05-43.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-12-38.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-23-25.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-29-38.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-36-40.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-44-24.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-50-39.uasset
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.29-18.57.14.log
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.29-20.00.38.log
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9291DC6D4DB9DCFFA0E109A50415AAD9/
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9535ECDC48840EB77EC6A0B76835ADA8/
+[2017.04.30-00.00.57:154][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9535ECDC48840EB77EC6A0B76835ADA8_0000/
+[2017.04.30-00.00.57:154][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.04.30-00.00.57:154][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.30-00.00.57:155][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-00.00.57:159][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.30-00.00.57:164][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.30-00.00.57:312][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2017.04.30-00.00.57:367][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-00.00.57:457][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/' took 0.32s
+[2017.04.30-00.00.57:475][  1]LogAssetRegistry: Asset discovery search completed in 10.7952 seconds
+[2017.04.30-00.00.57:475][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.04.30-00.00.57:475][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.04.30-00.01.27:550][246]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-00.01.28:007][246]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.04.30-00.01.28:741][246]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.30-00.01.28:742][246]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.30-00.01.57:790][961]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.30-00.02.50:464][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.30-00.02.50:518][599]LogSavePackage: Save=51.60ms
+[2017.04.30-00.02.50:518][599]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUD1CA21E1B4F9C7647E85D6CA46441A717.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.30-00.02.50:519][599]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.02.53:077][752]BlueprintLog: New page: Compile HUD
+[2017.04.30-00.02.56:736][951]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.02.56:754][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.02.56:754][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.02.56:754][951]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 4:02:56 PM)
+[2017.04.30-00.02.56:754][951]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.30-00.02.56:789][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034736s)
+[2017.04.30-00.02.56:790][951]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.30-00.02.56:790][951]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2017.04.30-00.02.56:790][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.035840s)
+[2017.04.30-00.02.56:809][951]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.02.56:817][951]LogInit: FAudioDevice initialized.
+[2017.04.30-00.02.56:869][951]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.30-00.02.56:874][951]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.04.29-20.02.56
+[2017.04.30-00.02.56:874][951]LogWorld: Bringing up level for play took: 0.003354
+[2017.04.30-00.02.56:919][951]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.04.30-00.02.56:920][951]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.075
+[2017.04.30-00.02.56:921][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.03.12:079][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.03.12:120][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.18.02:191][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.018
+[2017.04.30-00.18.02:193][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.30-00.18.02:193][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.30-00.18.02:193][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-00.18.02:244][791]LogSavePackage: Save=49.16ms
+[2017.04.30-00.18.02:244][791]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUD_Auto1101CDE9B470B87FEC483499D16D89649.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset'
+[2017.04.30-00.18.02:245][791]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset
+[2017.04.30-00.18.02:245][791]LogFileHelpers: Auto-saving content packages took 0.053
+[2017.04.30-00.24.29:399][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.30-00.24.29:459][147]LogSavePackage: Save=58.27ms
+[2017.04.30-00.24.29:459][147]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUDB0B266934989230EFF9ED09A4BD7847E.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.30-00.24.29:459][147]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.24.30:318][198]BlueprintLog: New page: Compile HUD
+[2017.04.30-00.24.34:079][414]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.24.34:093][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.24.34:094][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.24.34:094][414]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 4:24:34 PM)
+[2017.04.30-00.24.34:094][414]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.30-00.24.34:121][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027195s)
+[2017.04.30-00.24.34:123][414]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.30-00.24.34:123][414]LogPlayLevel: PIE: World Init took: (0.002065s)
+[2017.04.30-00.24.34:123][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029459s)
+[2017.04.30-00.24.34:144][414]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.24.34:155][414]LogInit: FAudioDevice initialized.
+[2017.04.30-00.24.34:184][414]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.30-00.24.34:189][414]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.04.29-20.24.34
+[2017.04.30-00.24.34:189][414]LogWorld: Bringing up level for play took: 0.003404
+[2017.04.30-00.24.34:191][414]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.348
+[2017.04.30-00.24.34:192][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.24.37:274][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.24.37:311][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.24.48:318][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.30-00.24.48:375][244]LogSavePackage: Save=55.93ms
+[2017.04.30-00.24.48:375][244]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUD31F9F37643464A963E20C088E8F7DDDC.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.30-00.24.48:376][244]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.24.49:796][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.30-00.24.49:855][322]LogSavePackage: Save=58.31ms
+[2017.04.30-00.24.49:855][322]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUDD1A22E524A59B8673ADE7E9365620C98.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.30-00.24.49:856][322]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.24.50:442][357]BlueprintLog: New page: Compile HUD
+[2017.04.30-00.24.54:944][617]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.30-00.24.54:959][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.24.54:959][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-00.24.54:959][617]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 4:24:54 PM)
+[2017.04.30-00.24.54:959][617]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.30-00.24.54:984][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024224s)
+[2017.04.30-00.24.54:985][617]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.30-00.24.54:985][617]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2017.04.30-00.24.54:985][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025571s)
+[2017.04.30-00.24.55:006][617]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.30-00.24.55:013][617]LogInit: FAudioDevice initialized.
+[2017.04.30-00.24.55:048][617]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.30-00.24.55:053][617]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.04.29-20.24.55
+[2017.04.30-00.24.55:054][617]LogWorld: Bringing up level for play took: 0.003182
+[2017.04.30-00.24.55:057][617]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.787
+[2017.04.30-00.24.55:057][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.25.04:952][209]LogBlueprintUserMessages: [HUD_C_1] You Win!
+[2017.04.30-00.25.05:948][269]LogBlueprintUserMessages: [HUD_C_1] You Win!
+[2017.04.30-00.25.06:948][329]LogBlueprintUserMessages: [HUD_C_1] You Win!
+[2017.04.30-00.25.07:950][389]LogBlueprintUserMessages: [HUD_C_1] You Win!
+[2017.04.30-00.25.08:952][449]LogBlueprintUserMessages: [HUD_C_1] You Win!
+[2017.04.30-00.25.09:950][509]LogBlueprintUserMessages: [HUD_C_1] You Lose
+[2017.04.30-00.25.10:953][569]LogBlueprintUserMessages: [HUD_C_1] You Lose
+[2017.04.30-00.25.11:235][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.25.11:269][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.30-00.25.40:040][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/Win_Condition" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/Win_Condition.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.30-00.25.40:063][147]LogSavePackage: Save=5.65ms
+[2017.04.30-00.25.40:063][147]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Win_Condition286C5A844285B10F0756F093B810BE39.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/Win_Condition.umap'
+[2017.04.30-00.25.40:063][147]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/Win_Condition.umap
+[2017.04.30-00.25.40:213][147]LogFileHelpers: Saving map 'Win_Condition' took 0.226
+[2017.04.30-00.25.40:216][147]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.30-00.25.40:223][147]Cmd: MAP LOAD FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/Win_Condition.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-00.25.40:224][147]LightingResults: New page: Lighting Build
+[2017.04.30-00.25.40:225][147]LoadErrors: New page: Loading map: Win_Condition.umap
+[2017.04.30-00.25.40:226][147]MapCheck: New page: Map Check
+[2017.04.30-00.25.40:226][147]LightingResults: New page: Lighting Build
+[2017.04.30-00.25.40:245][147]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-00.25.40:245][147]LogAIModule: Creating AISystem for world Win_Condition
+[2017.04.30-00.25.40:265][147]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-00.25.40:314][147]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.136ms to complete.
+[2017.04.30-00.25.40:315][147]LogFileHelpers: Loading map 'Win_Condition' took 0.093
+[2017.04.30-00.29.52:514][770]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.30-00.29.52:551][770]Cmd: MAP LOAD FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-00.29.52:551][770]LightingResults: New page: Lighting Build
+[2017.04.30-00.29.52:552][770]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2017.04.30-00.29.52:553][770]MapCheck: New page: Map Check
+[2017.04.30-00.29.52:553][770]LightingResults: New page: Lighting Build
+[2017.04.30-00.29.52:577][770]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-00.29.52:596][770]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-00.29.52:646][770]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.076ms to complete.
+[2017.04.30-00.29.52:647][770]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.096
+[2017.04.30-00.29.55:602][944]LogAIModule: Creating AISystem for world Win_Condition
+[2017.04.30-00.31.56:476][963]SourceControl: Info On branch master
+[2017.04.30-00.31.56:476][963]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.04.30-00.31.56:476][963]SourceControl: Info Changes to be committed:
+[2017.04.30-00.31.56:476][963]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	new file:   Lionfish/Content/TopDownBP/Maps/Win_Condition.umap
+[2017.04.30-00.31.56:476][963]SourceControl: Info Changes not staged for commit:
+[2017.04.30-00.31.56:476][963]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.30-00.31.56:476][963]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Config/DefaultEngine.ini
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Intermediate/CachedAssetRegistry.bin
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/AutoScreenshot.png
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto2.uasset
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto3.uasset
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Autosaves/PackageRestoreData.json
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/Engine.ini
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	modified:   Lionfish/Saved/Logs/Lionfish.log
+[2017.04.30-00.31.56:476][963]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-11.48.49.log
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-11.55.47.log
+[2017.04.30-00.31.56:477][963]SourceControl: Info Untracked files:
+[2017.04.30-00.31.56:477][963]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-05-43.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-12-38.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-23-25.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-29-38.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-36-40.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-44-24.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-19-50-39.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-20-02-50.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-20-18-02.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Backup/HUD_2017-04-29-20-24-29.uasset
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.29-18.57.14.log
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.29-20.00.38.log
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9291DC6D4DB9DCFFA0E109A50415AAD9/
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9535ECDC48840EB77EC6A0B76835ADA8/
+[2017.04.30-00.31.56:477][963]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-9535ECDC48840EB77EC6A0B76835ADA8_0000/
+[2017.04.30-00.31.56:848][963]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Win.SKEL_Win_C' ref from Metadata '/Game/TopDownBP/Blueprints/in.PackageMetaData'
+[2017.04.30-00.31.56:848][963]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Win.Win_C' ref from Metadata '/Game/TopDownBP/Blueprints/in.PackageMetaData'
+[2017.04.30-00.31.56:848][963]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Win.Win:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/in.PackageMetaData'
+[2017.04.30-00.31.56:848][963]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Win.Win:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/in.PackageMetaData'
+[2017.04.30-00.31.56:864][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Win" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/Win.uasset" SILENT=true
+[2017.04.30-00.31.56:868][963]LogSavePackage: Save=3.29ms
+[2017.04.30-00.31.56:868][963]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Win83A14EE24B4E3A84B91F5BB9FCFEB4E8.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/Win.uasset'
+[2017.04.30-00.31.56:868][963]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/Win.uasset
+[2017.04.30-00.45.58:307][349]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.104 s
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: 
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: Ensure condition failed: !PreviewSlateWidgetWeak.IsValid() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\UMGEditor\Private\WidgetBlueprintEditor.cpp] [Line: 757]
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: 
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: Stack: 
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DB195E6
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004D8C9B82
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004D8DB666
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A0DA94E
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A141F4E
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000047BD159C
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000047BD5FDC
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000003BBE2F5A
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000495EB4E3
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A1834F0
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A122CE9
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A0E7007
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A0EAFD7
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D380771
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D411E77
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D24D25F
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D24DD86
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D1E7424
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A0A3F9C
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A147D12
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A0E8626
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A09B2F8
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A18E1DE
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A18AD53
+[2017.04.30-00.45.58:307][349]LogOutputDevice:Error: UE4Editor-UMGEditor.dll!0x000000003A153E23
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D1D3D96
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D1A40A8
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D245A7A
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D230B83
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004D21FB59
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DB0CEA5
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DAF67C1
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DB0EA1C
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DAF26E9
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: USER32.dll!0x0000000092171C24
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: USER32.dll!0x000000009217156C
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004DB0F326
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor.exe!0x000000001641D790
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor.exe!0x000000001640EB40
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor.exe!0x000000001640EBBA
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor.exe!0x0000000016420A29
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: UE4Editor.exe!0x00000000164222B6
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: KERNEL32.DLL!0x0000000093BC8364
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: ntdll.dll!0x00000000949A70D1
+[2017.04.30-00.45.58:308][349]LogOutputDevice:Error: 
+[2017.04.30-00.45.58:318][349]LogStats:                SubmitErrorReport -  0.000 s

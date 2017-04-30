@@ -1,0 +1,1039 @@
+﻿Log file open, 04/29/17 15:36:07
+LogInit:Display: Running engine for game: Lionfish
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-229360077) SRandInit(-229360077).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.364079
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.29-19.36.10:354][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.29-19.36.10:354][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.29-19.36.10:458][  0]LogInit: Computer: JERYTHELAPTOP
+[2017.04.29-19.36.10:458][  0]LogInit: User: Jacob
+[2017.04.29-19.36.10:458][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.29-19.36.10:458][  0]LogInit: High frequency timer resolution =1.462105 MHz
+[2017.04.29-19.36.10:459][  0]LogMemory: Memory total: Physical=5.4GB (6GB approx)
+[2017.04.29-19.36.10:459][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.29-19.36.10:459][  0]LogMemory: Process Physical Memory: 263.40 MB used, 263.40 MB peak
+[2017.04.29-19.36.10:459][  0]LogMemory: Process Virtual Memory: 262.43 MB used, 262.43 MB peak
+[2017.04.29-19.36.10:459][  0]LogMemory: Physical Memory: 2325.79 MB used,  3246.68 MB free, 5572.47 MB total
+[2017.04.29-19.36.10:459][  0]LogMemory: Virtual Memory: 643.97 MB used,  3246.68 MB free, 134217728.00 MB total
+[2017.04.29-19.36.11:829][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.29-19.36.20:823][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.29-19.36.20:875][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8330' (Feature Level 11_0)
+[2017.04.29-19.36.20:875][  0]LogD3D11RHI:       495/0/2786 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.29-19.36.20:880][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.29-19.36.20:880][  0]LogD3D11RHI:       0/0/2786 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.29-19.36.20:880][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.29-19.36.20:895][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.29-19.36.20:896][  0]LogD3D11RHI:     GPU DeviceId: 0x9832 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.29-19.36.20:896][  0]LogWindows: EnumDisplayDevices:
+[2017.04.29-19.36.20:896][  0]LogWindows:    0. 'AMD Radeon HD 8330' (P:1 D:1)
+[2017.04.29-19.36.20:897][  0]LogWindows:    1. 'AMD Radeon HD 8330' (P:0 D:0)
+[2017.04.29-19.36.20:898][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.04.29-19.36.20:898][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8330
+[2017.04.29-19.36.20:898][  0]LogD3D11RHI:   Driver Version: 15.201.1101.1002 (internal:15.201.1101.1002, unified:15.201.1101.1002)
+[2017.04.29-19.36.20:898][  0]LogD3D11RHI:      Driver Date: 8-21-2015
+[2017.04.29-19.36.20:898][  0]LogRHI: Texture pool is 346 MB (70% of 495 MB)
+[2017.04.29-19.36.21:049][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.29-19.36.21:083][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2017.04.29-19.36.21:091][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Intermediate/Shaders/WorkingDirectory/8604/).
+[2017.04.29-19.36.21:091][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jacob/AppData/Local/Temp/UnrealShaderWorkingDir/EBBD9A414C8E082364AF5C8CAD476A3E/'.
+[2017.04.29-19.36.21:091][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.29-19.36.30:854][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.29-19.36.31:143][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.29-19.36.31:434][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.29-19.36.31:723][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.29-19.36.32:049][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.29-19.36.32:340][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.29-19.36.32:636][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.29-19.36.32:929][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.29-19.36.33:166][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.29-19.36.33:464][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.29-19.36.33:746][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.29-19.36.34:034][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.29-19.36.34:321][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.29-19.36.34:608][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.29-19.36.34:897][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.29-19.36.35:469][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.29-19.36.35:469][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.29-19.36.35:671][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.29-19.36.36:217][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.29-19.36.36:411][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.29-19.36.36:697][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.29-19.36.36:984][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.29-19.36.37:267][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.29-19.36.37:562][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.29-19.36.37:563][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.29-19.36.41:204][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.29-19.36.41:428][  0]LogDerivedDataCache: Loaded boot cache 0.22s 50MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.29-19.36.41:429][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.29-19.36.41:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.29-19.36.41:429][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.29-19.36.41:429][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.29-19.36.41:429][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.29-19.36.41:534][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.29-19.36.41:549][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.29-19.36.41:593][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.29-19.36.41:636][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.29-19.36.41:637][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.29-19.36.50:705][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.29-19.36.50:718][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.29-19.36.51:676][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.29-19.36.51:901][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.29-19.36.52:137][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.29-19.36.52:137][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.29-19.36.52:137][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.29-19.36.54:647][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lionfish, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3667421609
+[2017.04.29-19.36.54:801][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2017.04.29-19.36.55:075][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.148387 seconds
+[2017.04.29-19.36.55:101][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.29-19.36.55:101][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.29-19.36.55:102][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.29-19.36.55:463][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.29-19.37.06:554][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.29-19.37.06:717][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.29-19.37.08:883][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.29-19.37.10:821][  0]SourceControl: Info Source control is disabled
+[2017.04.29-19.37.19:682][  0]LogEngine: Initializing Engine...
+[2017.04.29-19.37.19:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.29-19.37.20:805][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.29-19.37.20:830][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-19.37.20:953][  0]LogInit: FAudioDevice initialized.
+[2017.04.29-19.37.21:054][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/Jacob/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.29-19.37.21:099][  0]LogInit: Texture streaming: Enabled
+[2017.04.29-19.37.21:610][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.29-19.37.22:069][  0]LogInit: Transaction tracking system initialized
+[2017.04.29-19.37.23:937][  0]BlueprintLog: New page: Editor Load
+[2017.04.29-19.37.28:668][  0]LocalizationService: Info Localization service is disabled
+[2017.04.29-19.37.32:929][  0]LogConsoleResponse:Display: 
+[2017.04.29-19.37.33:512][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.29-19.37.33:512][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.29-19.37.34:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/' took 0.06s
+[2017.04.29-19.37.39:544][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.29-19.37.39:546][  0]LightingResults: New page: Lighting Build
+[2017.04.29-19.37.39:756][  0]MapCheck: New page: Map Check
+[2017.04.29-19.37.39:756][  0]LightingResults: New page: Lighting Build
+[2017.04.29-19.37.42:408][  0]LogLinker:Warning: Asset '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/Meshes/Water_04/Water/Textures/water.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.29-19.37.43:695][  0]LogMaterial: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2017.04.29-19.37.43:722][  0]LogTemp:Display: Added material ShaderMap 0x000001EF7C921980 with Material 0x000001EF672AE080 to ShaderMapsBeingCompiled
+[2017.04.29-19.37.44:055][  0]LogTemp:Display: Kicking off shader compilation for M_Metal_Copper, GameThreadShaderMap 0x000001EF7C921980
+[2017.04.29-19.37.45:013][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-19.37.45:144][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.29-19.37.45:148][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.29-19.37.45:425][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 276.112ms to complete.
+[2017.04.29-19.37.45:426][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 5.882
+[2017.04.29-19.37.46:198][  0]LogCollectionManager: Loaded 0 collections in 0.006569 seconds
+[2017.04.29-19.37.46:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Saved/Collections/' took 0.01s
+[2017.04.29-19.37.46:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Developers/Jacob/Collections/' took 0.01s
+[2017.04.29-19.37.46:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Collections/' took 0.01s
+[2017.04.29-19.37.46:504][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.04.29-19.37.46:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0491 seconds. Added 2245 classes and 453 folders.
+[2017.04.29-19.37.46:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.29-19.37.46:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.29-19.37.46:972][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.04.29-19.37.48:340][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.04.29-19.37.48:612][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.04.29-19.37.48:909][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.29-19.37.48:931][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.29-19.37.49:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2017.04.29-19.37.49:235][  0]LogLoad: (Engine Initialization) Total time: 111.94 seconds
+[2017.04.29-19.37.49:235][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.59 seconds
+[2017.04.29-19.37.49:235][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.29-19.37.49:257][  0]LogOcInput: OculusInput pre-init called
+[2017.04.29-19.37.49:306][  0]SourceControl: Info On branch master
+[2017.04.29-19.37.49:306][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.04.29-19.37.49:306][  0]SourceControl: Info Changes not staged for commit:
+[2017.04.29-19.37.49:306][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.04.29-19.37.49:306][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.04.29-19.37.49:306][  0]SourceControl: Info 	modified:   Lionfish/Intermediate/CachedAssetRegistry.bin
+[2017.04.29-19.37.49:306][  0]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/Editor.ini
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish-backup-2017.04.28-11.15.19.log
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish-backup-2017.04.28-11.44.18.log
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish-backup-2017.04.28-12.16.01.log
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	modified:   Lionfish/Saved/Logs/Lionfish.log
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-12.03.36.log
+[2017.04.29-19.37.49:307][  0]SourceControl: Info Untracked files:
+[2017.04.29-19.37.49:307][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Anim_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Beta_HighJointsGeo_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Beta_HighLimbsGeo_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Beta_HighTorsoGeo_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Body_MAT_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Joints_MAT_Auto1.uasset
+[2017.04.29-19.37.49:307][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_PhysicsAsset_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Beta_Skeleton_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Mannequin/
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/Material_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/swimming_Anim_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/swimming_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Autosaves/Game/swimming_PhysicsAsset_Auto1.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Backup/TopDownExampleMap_2017-04-28-17-37-18.umap
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Backup/TopDownExampleMap_BuiltData_2017-04-28-17-37-19.uasset
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.28-17.28.09.log
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.04.29-15.36.07.log
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-17.29.14.log
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish_2-backup-2017.04.28-17.37.28.log
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-0EA08C704D31529884351C8267830F8A/
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-6AA0591C4D8109358E69ACA6AC499F6E/
+[2017.04.29-19.37.49:308][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-7B3781904A570287DE4CC0B84D48904F/
+[2017.04.29-19.37.49:309][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-7B3781904A570287DE4CC0B84D48904F_0000/
+[2017.04.29-19.37.49:309][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-981825AE4B17D6A1488EF78A0F6031CB/
+[2017.04.29-19.37.49:309][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-AEDDA78A4712F187C81E91959BEEBC31/
+[2017.04.29-19.37.49:309][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-B9086FB143F631AD4785C582DA679103/
+[2017.04.29-19.37.49:309][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.04.29-19.37.49:310][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.04.29-19.37.49:314][  0]LogSlate: Took 0.000713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.29-19.37.49:335][  0]LogSlate: Took 0.001135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.29-19.37.49:372][  0]LogSlate: Took 0.014433 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.29-19.37.49:908][  0]LogRenderer: Reallocating scene render targets to support 632x372 NumSamples 1 (Frame:2).
+[2017.04.29-19.37.50:142][  0]LogSlate: Took 0.012062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-19.37.51:222][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/' took 1.95s
+[2017.04.29-19.37.51:818][  2]LogSlate: Took 0.000978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-19.37.52:197][  7]LogAssetRegistry: Asset discovery search completed in 57.4197 seconds
+[2017.04.29-19.37.52:197][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000023 seconds (found 0 objects)
+[2017.04.29-19.37.52:197][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2017.04.29-19.39.21:973][852]LogTemp:Display: Finished compile of shader map 0x000001EF7C921980
+[2017.04.29-19.39.21:973][852]LogTemp:Display: Shader map M_Metal_Copper complete, GameThreadShaderMap 0x000001EF7C921980, marking material M_Metal_Copper as finished
+[2017.04.29-19.39.21:973][852]LogTemp:Display: Marking material as finished 0x000001EF672AE080
+[2017.04.29-19.40.55:552][566]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.29-19.40.56:667][566]LogSlate: Took 0.000594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.29-19.40.58:186][566]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0040 seconds. Added 112 classes and 0 folders.
+[2017.04.29-19.41.01:757][566]LogSlate: Took 0.028878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.29-19.42.38:658][750]LogSlate: Took 0.035348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.29-19.49.26:089][955]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.145
+[2017.04.29-19.49.26:109][955]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.29-19.49.26:109][955]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.29-19.49.26:350][955]LogSavePackage: Save=207.60ms
+[2017.04.29-19.49.26:350][955]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD_Auto1646DC61F46CCF704A9F10AAA8266F199.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset'
+[2017.04.29-19.49.26:419][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto1.uasset
+[2017.04.29-19.49.26:419][955]LogFileHelpers: Auto-saving content packages took 0.328
+[2017.04.29-19.55.04:429][594]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-19.55.05:138][597]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-19.56.08:091][845]BlueprintLog: New page: Compile HUD
+[2017.04.29-19.56.16:022][ 37]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.29-19.56.16:143][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-19.56.16:143][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.29-19.56.16:144][ 37]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 11:56:16 AM)
+[2017.04.29-19.56.16:144][ 37]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.29-19.56.16:259][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114761s)
+[2017.04.29-19.56.16:262][ 37]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-19.56.16:263][ 37]LogPlayLevel: PIE: World Init took: (0.003624s)
+[2017.04.29-19.56.16:264][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.119535s)
+[2017.04.29-19.56.16:365][ 37]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-19.56.16:395][ 37]LogInit: FAudioDevice initialized.
+[2017.04.29-19.56.16:509][ 37]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.29-19.56.16:524][ 37]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.04.29-15.56.16
+[2017.04.29-19.56.16:527][ 37]LogWorld: Bringing up level for play took: 0.014684
+[2017.04.29-19.56.16:761][ 37]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 11 classes and 0 folders.
+[2017.04.29-19.56.16:767][ 37]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.016
+[2017.04.29-19.56.16:768][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-19.56.21:397][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-19.56.21:556][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-19.56.28:982][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-19.56.29:233][239]LogSavePackage: Save=219.52ms
+[2017.04.29-19.56.29:234][239]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD0989BD924D6D8E7A3467858A61E55C77.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-19.56.29:244][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-19.56.30:217][239]LogSavePackage: Save=817.53ms
+[2017.04.29-19.56.30:220][239]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/UEDPCTopDownExampleMap99ECE66E4CF306949AB65C81BAB1DE0C.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap'
+[2017.04.29-19.56.30:256][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap
+[2017.04.29-19.56.34:805][239]LogSavePackage: Save=4178.13ms
+[2017.04.29-19.56.34:805][239]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap_BuiltDataE9BB73564F1EE5D4F9B5A3B6E0D568C7.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.04.29-19.56.34:820][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.04.29-19.56.34:828][239]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.29-19.57.35:857][872]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-19.57.42:013][890]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-19.58.00:636][946]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-19.58.02:114][950]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-19.59.09:638][138]BlueprintLog: New page: Compile HUD
+[2017.04.29-19.59.34:228][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.056
+[2017.04.29-19.59.34:234][616]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.29-19.59.34:234][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.29-19.59.34:464][616]LogSavePackage: Save=216.53ms
+[2017.04.29-19.59.34:464][616]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD_Auto237462A524A4A9A4D94EDBFA5D0B26502.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto2.uasset'
+[2017.04.29-19.59.34:470][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto2.uasset
+[2017.04.29-19.59.34:470][616]LogFileHelpers: Auto-saving content packages took 0.239
+[2017.04.29-20.00.44:780][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.00.45:021][217]LogSavePackage: Save=222.91ms
+[2017.04.29-20.00.45:021][217]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD89C993D14A2FCC68C36EB884C1308609.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.00.45:033][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.00.45:952][217]LogSavePackage: Save=809.46ms
+[2017.04.29-20.00.45:954][217]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/UEDPCTopDownExampleMap7152138E4C694EB189474DBA034BF685.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap'
+[2017.04.29-20.00.45:961][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap.umap
+[2017.04.29-20.00.49:872][217]LogSavePackage: Save=2996.32ms
+[2017.04.29-20.00.49:872][217]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap_BuiltDataFD48D9F0424F3D438625278C1F6F1F6E.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.04.29-20.00.49:886][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.04.29-20.00.49:894][217]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.29-20.01.54:264][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.09:398][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.09:967][727]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.10:595][728]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.11:559][730]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.12:173][731]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.13:793][736]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.14:399][737]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.15:320][739]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.50:627][845]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.02.51:314][846]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.24:739][946]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.25:401][947]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.26:095][948]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.26:771][949]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.37:195][980]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.03.49:887][ 18]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.04.25:894][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.04.26:499][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.04.29-20.05.34:225][606]BlueprintLog: New page: Compile HUD
+[2017.04.29-20.05.35:639][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.05.35:887][615]LogSavePackage: Save=218.57ms
+[2017.04.29-20.05.35:887][615]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD82BBF9C94665C26ECFFEE7AA37863044.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.05.35:898][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.05.51:342][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.05.51:342][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.29-20.05.51:343][135]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 12:05:51 PM)
+[2017.04.29-20.05.51:343][135]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.29-20.05.51:483][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140113s)
+[2017.04.29-20.05.51:487][135]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-20.05.51:487][135]LogPlayLevel: PIE: World Init took: (0.004159s)
+[2017.04.29-20.05.51:488][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.145076s)
+[2017.04.29-20.05.51:556][135]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-20.05.51:583][135]LogInit: FAudioDevice initialized.
+[2017.04.29-20.05.51:698][135]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.29-20.05.51:714][135]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.04.29-16.05.51
+[2017.04.29-20.05.51:716][135]LogWorld: Bringing up level for play took: 0.014956
+[2017.04.29-20.05.51:736][135]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.953
+[2017.04.29-20.05.51:750][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.05.51:875][135]LogRenderer: Reallocating scene render targets to support 648x380 NumSamples 1 (Frame:2401).
+[2017.04.29-20.06.23:889][458]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.23:890][458]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.23:938][459]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.23:938][459]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:019][460]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:020][460]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:106][461]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:106][461]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:188][462]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:188][462]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:272][463]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:272][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:355][464]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:356][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:440][465]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:440][465]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:522][466]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:522][466]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:608][467]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:609][467]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:690][468]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:691][468]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:776][469]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:776][469]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:859][470]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:859][470]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.24:944][471]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.24:944][471]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:026][472]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.25:026][472]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:111][473]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.25:112][473]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:194][474]LogScript:Warning: Accessed None trying to read property Grouper_Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/TopDownBP/Blueprints/HUD.HUD_C:Get_TextPlayerScore_Text_0:003D
+[2017.04.29-20.06.25:194][474]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:278][475]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:361][476]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:445][477]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:530][478]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:617][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:725][480]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:794][481]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:877][482]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.25:961][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:043][484]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:129][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:212][486]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:296][487]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:381][488]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:468][489]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:555][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:649][491]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:746][492]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:844][493]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.26:941][494]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:044][495]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:151][496]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:261][497]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:369][498]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:481][499]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:608][500]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:735][501]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.27:889][502]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:073][503]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:207][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:361][505]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:535][506]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:665][507]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:840][508]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.28:994][509]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:146][510]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:283][511]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:410][512]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:582][513]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:712][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.29:883][515]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:026][516]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:147][517]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:286][518]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:404][519]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:521][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:637][521]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:766][522]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.30:892][523]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:038][524]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:211][525]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:338][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:478][527]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:594][528]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:714][529]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:821][530]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.31:942][531]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:058][532]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:186][533]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:297][534]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:425][535]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:550][536]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:722][537]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.32:857][538]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:039][539]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:170][540]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:300][541]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:405][542]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:507][543]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:607][544]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:706][545]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:801][546]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:923][547]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.33:988][548]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:087][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:185][550]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:279][551]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:374][552]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:466][553]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:559][554]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:658][555]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:747][556]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:845][557]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.34:942][558]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:041][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:140][560]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:238][561]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:337][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:438][563]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:543][564]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:652][565]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:766][566]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.35:883][567]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:010][568]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:126][569]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:232][570]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:331][571]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:428][572]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:528][573]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:627][574]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:725][575]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:817][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.36:912][577]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:006][578]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:103][579]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:197][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:291][581]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:386][582]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:480][583]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:575][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:671][585]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:765][586]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:861][587]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.37:958][588]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:060][589]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:155][590]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:249][591]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:339][592]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:428][593]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:516][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:601][595]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:682][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:762][597]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:841][598]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:920][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.38:996][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:076][601]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:155][602]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:235][603]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:312][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:392][605]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:469][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:549][607]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:631][608]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:715][609]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:798][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:883][611]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.39:969][612]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:062][613]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:154][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:252][615]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:349][616]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:448][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:543][618]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:639][619]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:722][620]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:810][621]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:896][622]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.40:982][623]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:068][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:153][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:237][626]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:319][627]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:399][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:477][629]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:553][630]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:633][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:706][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:780][633]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:850][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:922][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.41:992][636]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:067][637]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:135][638]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:207][639]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:277][640]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:349][641]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:421][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:492][643]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:564][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:637][645]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:706][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:778][647]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:850][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:921][649]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.42:991][650]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.43:064][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.43:135][652]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Grouper_Character from function: 'Get_TextPlayerScore_Text_0' from node: Return Node in graph: Get_TextPlayerScore_Text_0 in object: HUD with description: Accessed None trying to read property Grouper_Character
+[2017.04.29-20.06.43:270][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.06.43:324][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.10.07:808][187]LogEditorTransaction: Undo Create Pin Link
+[2017.04.29-20.10.08:855][204]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-20.10.10:119][219]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-20.10.14:892][309]LogEditorTransaction: Undo Add Node
+[2017.04.29-20.10.42:238][876]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.058
+[2017.04.29-20.10.42:244][876]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.29-20.10.42:244][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.29-20.10.42:499][876]LogSavePackage: Save=217.88ms
+[2017.04.29-20.10.42:499][876]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD_Auto327BFE0EE414A3AA8651230B36D2F02C2.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto3.uasset'
+[2017.04.29-20.10.42:506][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto3.uasset
+[2017.04.29-20.10.42:506][876]LogFileHelpers: Auto-saving content packages took 0.265
+[2017.04.29-20.11.56:187][265]LogEditorTransaction: Undo Delete current selection
+[2017.04.29-20.13.22:639][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.13.22:869][992]LogSavePackage: Save=217.19ms
+[2017.04.29-20.13.22:869][992]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUDBFF0D4E64296BA88C18E569E30515A97.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.13.22:896][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.13.35:079][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.13.35:079][326]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.29-20.13.35:079][326]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.29-20.13.35:236][326]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not a TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2017.04.29-20.13.35:237][326]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not a TopDownCharacter_C, therefore ' Target ' must have a connection.
+[2017.04.29-20.13.35:249][326]LogBlueprint:Error: [Compiler HUD] Error Variable node  Set Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.04.29-20.13.35:249][326]LogBlueprint:Error: [Compiler HUD] Error Variable node  Set Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.04.29-20.13.36:020][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.73] Compile of HUD failed. 4 Fatal Issue(s) 0 Warning(s) [in 868 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:023][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.73] Compile of HUD failed. 4 Fatal Issue(s) 1 Warning(s) [in 2 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:023][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.73] Compile of HUD failed. 4 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:023][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.73] Compile of HUD failed. 4 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:028][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.74] Compile of HUD failed. 4 Fatal Issue(s) 4 Warning(s) [in 4 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:028][326]LogBlueprint:Warning: [Compiler HUD] Warning [2258.74] Compile of HUD failed. 4 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/TopDownBP/Blueprints/HUD.HUD)
+[2017.04.29-20.13.36:126][326]LogPlayLevel: PlayLevel: Blueprint regeneration took 1047 ms (1 blueprints)
+[2017.04.29-20.13.36:127][326]BlueprintLog: Info Blueprint HUD failed to compile
+[2017.04.29-20.13.49:744][430]LogSavePackage: Save=829.62ms
+[2017.04.29-20.13.49:746][430]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap821A18714C751091408E5296EADD1F94.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.04.29-20.13.49:753][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.04.29-20.13.53:972][430]LogSavePackage: Save=2975.88ms
+[2017.04.29-20.13.53:972][430]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap_BuiltDataA3AF17B9442672B3FCC356B6C85A2789.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.04.29-20.13.53:987][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.04.29-20.13.59:340][609]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.13.59:340][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.29-20.14.30:963][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.14.31:193][179]LogSavePackage: Save=214.83ms
+[2017.04.29-20.14.31:193][179]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD85692C4D4719FBA263FA8A87C4A137D7.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.14.31:202][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.16.27:753][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.16.28:005][422]LogSavePackage: Save=219.80ms
+[2017.04.29-20.16.28:005][422]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUDA3E38ACD4DCD4FF210021BB8CA2E1755.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.16.28:016][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.16.37:305][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.16.37:305][710]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.29-20.16.37:305][710]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.29-20.16.37:954][710]LogPlayLevel: PlayLevel: Blueprint regeneration took 648 ms (1 blueprints)
+[2017.04.29-20.16.37:954][710]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 12:16:37 PM)
+[2017.04.29-20.16.37:954][710]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.29-20.16.38:058][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.103335s)
+[2017.04.29-20.16.38:061][710]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-20.16.38:062][710]LogPlayLevel: PIE: World Init took: (0.003875s)
+[2017.04.29-20.16.38:062][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.108061s)
+[2017.04.29-20.16.38:142][710]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-20.16.38:173][710]LogInit: FAudioDevice initialized.
+[2017.04.29-20.16.38:250][710]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.29-20.16.38:266][710]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.04.29-16.16.38
+[2017.04.29-20.16.38:269][710]LogWorld: Bringing up level for play took: 0.014905
+[2017.04.29-20.16.38:288][710]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.505
+[2017.04.29-20.16.38:290][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.17.31:228][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.17.31:282][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.22.54:078][404]BlueprintLog: New page: Compile HUD
+[2017.04.29-20.22.55:438][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.22.55:699][406]LogSavePackage: Save=223.33ms
+[2017.04.29-20.22.55:700][406]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUDB422F30249C4FC15D59D119D3BC1DC81.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.22.55:710][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.23.41:366][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.23.41:592][239]LogSavePackage: Save=213.09ms
+[2017.04.29-20.23.41:593][239]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD9960BFCE4F3B31B8C8303DBB037F03A9.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.23.41:604][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.23.51:447][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.23.51:677][389]LogSavePackage: Save=216.32ms
+[2017.04.29-20.23.51:677][389]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUDA3F9D0774CC80A57DF4A48A2DE87688E.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.23.51:688][389]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.24.02:784][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.24.02:784][580]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.29-20.24.02:784][580]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.29-20.24.03:413][580]LogPlayLevel: PlayLevel: Blueprint regeneration took 628 ms (1 blueprints)
+[2017.04.29-20.24.03:413][580]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 12:24:03 PM)
+[2017.04.29-20.24.03:413][580]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.29-20.24.03:505][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091501s)
+[2017.04.29-20.24.03:509][580]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-20.24.03:510][580]LogPlayLevel: PIE: World Init took: (0.004548s)
+[2017.04.29-20.24.03:510][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.097042s)
+[2017.04.29-20.24.03:720][580]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-20.24.03:748][580]LogInit: FAudioDevice initialized.
+[2017.04.29-20.24.03:816][580]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.29-20.24.03:833][580]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.04.29-16.24.03
+[2017.04.29-20.24.03:835][580]LogWorld: Bringing up level for play took: 0.015349
+[2017.04.29-20.24.03:855][580]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.072
+[2017.04.29-20.24.03:857][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.24.55:849][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.24.56:205][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.25.36:251][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.055
+[2017.04.29-20.25.36:263][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.29-20.25.36:263][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.29-20.25.36:491][597]LogSavePackage: Save=213.27ms
+[2017.04.29-20.25.36:492][597]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD_Auto4B569E1E84083B31404C918B54CBDB247.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto4.uasset'
+[2017.04.29-20.25.36:498][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto4.uasset
+[2017.04.29-20.25.36:498][597]LogFileHelpers: Auto-saving content packages took 0.238
+[2017.04.29-20.28.00:495][682]BlueprintLog: New page: Compile HUD
+[2017.04.29-20.28.02:259][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.28.02:515][695]LogSavePackage: Save=224.13ms
+[2017.04.29-20.28.02:516][695]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD84D54FA34747955D12DE12AB7864B4D9.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.28.02:526][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.30.11:750][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.30.12:001][642]LogSavePackage: Save=235.61ms
+[2017.04.29-20.30.12:001][642]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD0F0A999C4C09E785E7EBCE9EC839487A.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.30.12:012][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.30.34:031][973]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  OnClicked (Diver)  and was replaced as a Custom Event!
+[2017.04.29-20.30.34:113][973]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  OnClicked (Diver)  and was replaced as a Custom Event!
+[2017.04.29-20.30.36:317][995]LogEditorTransaction: Undo Paste clipboard contents
+[2017.04.29-20.30.36:318][995]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/TopDownBP/Blueprints/HUD.HUD:EventGraph.K2Node_ComponentBoundEvent_0.
+[2017.04.29-20.30.52:901][202]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  OnClicked (Diver)  and was replaced as a Custom Event!
+[2017.04.29-20.31.51:725][949]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  OnClicked (Diver)  and was replaced as a Custom Event!
+[2017.04.29-20.32.15:679][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.32.15:948][255]LogSavePackage: Save=254.52ms
+[2017.04.29-20.32.15:948][255]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD9BA6E3F04D34FBBB1246318E92B89F8F.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.32.15:976][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.34.37:933][160]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  OnClicked (Diver)  and was replaced as a Custom Event!
+[2017.04.29-20.35.37:310][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.089
+[2017.04.29-20.35.37:316][  2]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/HUD] ([1] browsable assets)...
+[2017.04.29-20.35.37:316][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/HUD]
+[2017.04.29-20.35.37:614][  2]LogSavePackage: Save=265.44ms
+[2017.04.29-20.35.37:614][  2]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD_Auto5FB468D1040461F7ECE17ECBD12050817.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto5.uasset'
+[2017.04.29-20.35.37:620][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/HUD_Auto5.uasset
+[2017.04.29-20.35.37:620][  2]LogFileHelpers: Auto-saving content packages took 0.308
+[2017.04.29-20.36.40:402][908]BlueprintLog: New page: Compile HUD
+[2017.04.29-20.36.41:896][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.04.29-20.36.42:180][909]LogSavePackage: Save=268.70ms
+[2017.04.29-20.36.42:180][909]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/HUD12CBF460442D1E3C5F955282AEA6486A.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.04.29-20.36.42:191][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.04.29-20.37.02:802][210]LogSavePackage: Save=820.72ms
+[2017.04.29-20.37.02:805][210]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap2CC6F4984B354114347332BEA28BA6C5.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.04.29-20.37.02:812][210]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.04.29-20.37.07:030][210]LogSavePackage: Save=2991.91ms
+[2017.04.29-20.37.07:030][210]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap_BuiltData7D6820584E1320D894AEA9B6A1ED0607.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.04.29-20.37.07:044][210]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.04.29-20.37.10:418][269]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.29-20.37.10:506][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.37.10:507][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.29-20.37.10:507][269]PIE: New page: PIE session: TopDownExampleMap (Apr 29, 2017, 12:37:10 PM)
+[2017.04.29-20.37.10:507][269]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.04.29-20.37.10:606][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.098152s)
+[2017.04.29-20.37.10:608][269]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.04.29-20.37.10:609][269]LogPlayLevel: PIE: World Init took: (0.002933s)
+[2017.04.29-20.37.10:609][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.101879s)
+[2017.04.29-20.37.10:696][269]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.29-20.37.10:725][269]LogInit: FAudioDevice initialized.
+[2017.04.29-20.37.10:791][269]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.04.29-20.37.10:808][269]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.04.29-16.37.10
+[2017.04.29-20.37.10:810][269]LogWorld: Bringing up level for play took: 0.015411
+[2017.04.29-20.37.10:830][269]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.047
+[2017.04.29-20.37.10:832][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.38.43:287][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.38.43:644][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.04.29-20.38.48:758][177]LogSavePackage: Save=817.56ms
+[2017.04.29-20.38.48:760][177]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap41BA2B5A4E87E5D538D1658ECFB76E34.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.04.29-20.38.48:768][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.04.29-20.38.52:817][177]LogSavePackage: Save=2993.60ms
+[2017.04.29-20.38.52:817][177]LogSavePackage: Moving '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Saved/TopDownExampleMap_BuiltData81ABBA7B4CC2ACA849D2D4855638CC2A.tmp' to '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.04.29-20.38.52:831][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.04.29-20.39.37:694][115]Cmd: QUIT_EDITOR
+[2017.04.29-20.39.37:975][115]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.29-20.39.37:982][115]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.29-20.39.38:109][115]LogExit: Preparing to exit.
+[2017.04.29-20.39.39:132][115]LogDirectoryWatcher: A directory notification for 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/' was aborted.
+[2017.04.29-20.39.39:514][115]LogExit: Editor shut down
+[2017.04.29-20.39.39:517][115]LogExit: Transaction tracking system shut down
+[2017.04.29-20.39.40:279][115]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.29-20.39.40:282][115]LogExit: Object subsystem successfully closed.
+[2017.04.29-20.39.40:370][115]LogD3D11RHI: Shutdown
+[2017.04.29-20.39.40:370][115]LogD3D11RHI: CleanupD3DDevice
+[2017.04.29-20.39.41:073][115]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.04.29-20.39.41:269][115]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.04.29-20.39.41:270][115]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.29-20.39.41:293][115]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.04.29-20.39.41:293][115]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.04.29-20.39.41:293][115]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.04.29-20.39.41:293][115]LogDirectoryWatcher: A directory notification for 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Collections/' was aborted.
+[2017.04.29-20.39.41:293][115]LogDirectoryWatcher: A directory notification for 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Content/Developers/Jacob/Collections/' was aborted.
+[2017.04.29-20.39.41:293][115]LogDirectoryWatcher: A directory notification for 'C:/Users/Jacob/Documents/Lionfish/Lionfish/Saved/Collections/' was aborted.
+[2017.04.29-20.39.41:293][115]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.04.29-20.39.41:294][115]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.04.29-20.39.41:295][115]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.04.29-20.39.41:296][115]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.04.29-20.39.41:300][115]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.04.29-20.39.41:301][115]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.04.29-20.39.41:727][115]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.04.29-20.39.41:728][115]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.04.29-20.39.41:729][115]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.04.29-20.39.41:730][115]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.04.29-20.39.41:730][115]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.04.29-20.39.41:730][115]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.04.29-20.39.41:731][115]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.04.29-20.39.41:731][115]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.04.29-20.39.41:731][115]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.04.29-20.39.41:731][115]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.04.29-20.39.41:779][115]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.04.29-20.39.41:780][115]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.04.29-20.39.41:780][115]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.04.29-20.39.41:780][115]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.04.29-20.39.41:827][115]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.04.29-20.39.41:828][115]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.04.29-20.39.41:828][115]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.04.29-20.39.41:831][115]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.04.29-20.39.41:831][115]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.04.29-20.39.41:832][115]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.04.29-20.39.41:992][115]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.29-20.39.41:993][115]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.29-20.39.41:994][115]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.29-20.39.41:995][115]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.29-20.39.41:995][115]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.29-20.39.41:999][115]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.29-20.39.41:999][115]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.29-20.39.42:000][115]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.29-20.39.42:002][115]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.29-20.39.42:015][115]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.29-20.39.42:015][115]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.29-20.39.42:015][115]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.29-20.39.42:015][115]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.29-20.39.42:116][115]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.29-20.39.42:217][115]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.29-20.39.42:218][115]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.29-20.39.42:218][115]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.29-20.39.42:218][115]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.29-20.39.42:218][115]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.29-20.39.42:219][115]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.29-20.39.42:219][115]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.29-20.39.42:220][115]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.29-20.39.42:221][115]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.29-20.39.42:221][115]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.29-20.39.42:221][115]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.29-20.39.42:221][115]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.29-20.39.42:235][115]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.29-20.39.42:236][115]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.29-20.39.42:236][115]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.29-20.39.42:236][115]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.29-20.39.42:236][115]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.29-20.39.42:236][115]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.29-20.39.42:727][115]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.29-20.39.42:728][115]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jacob/Documents/Lionfish/Lionfish/Content/' was aborted.
+[2017.04.29-20.39.42:728][115]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.29-20.39.42:729][115]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.29-20.39.42:739][115]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.29-20.39.42:739][115]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.29-20.39.42:739][115]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.29-20.39.42:739][115]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.29-20.39.42:739][115]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.29-20.39.42:740][115]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.29-20.39.42:740][115]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.29-20.39.42:740][115]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.29-20.39.42:774][115]LogDerivedDataCache: Shutdown
+[2017.04.29-20.39.42:774][115]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.29-20.39.42:775][115]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.29-20.39.42:775][115]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.29-20.39.42:775][115]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.29-20.39.42:775][115]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.29-20.39.42:776][115]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.29-20.39.42:776][115]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.29-20.39.42:776][115]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.29-20.39.42:776][115]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.29-20.39.42:777][115]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.29-20.39.42:777][115]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.29-20.39.42:777][115]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.29-20.39.42:777][115]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.29-20.39.42:777][115]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.29-20.39.42:778][115]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.29-20.39.42:779][115]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.29-20.39.42:780][115]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.29-20.39.42:781][115]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.29-20.39.42:781][115]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.29-20.39.42:782][115]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.29-20.39.42:782][115]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.29-20.39.42:782][115]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B15FBA893-4890-AC34-D66E-E29B17E01C5A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=412ef9ee49b0ac877a662fbaada6f67d%7Ceb844d0ac70f4dca97008bb30e785949%7Ccf9e1c0a-479e-4f2a-9f93-cf13636606b2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.29-20.39.42:812][115]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.29-20.39.42:819][115]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.29-20.39.42:819][115]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.29-20.39.42:820][115]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.29-20.39.42:820][115]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.29-20.39.42:820][115]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.29-20.39.42:857][115]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.29-20.39.42:858][115]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.29-20.39.42:858][115]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.29-20.39.42:858][115]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.29-20.39.42:863][115]LogExit: Exiting.
+[2017.04.29-20.39.42:955][115]Log file closed, 04/29/17 16:39:42
