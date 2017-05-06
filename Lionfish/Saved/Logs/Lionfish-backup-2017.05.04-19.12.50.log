@@ -1,0 +1,1144 @@
+﻿Log file open, 05/04/17 16:39:21
+LogInit:Display: Running engine for game: Lionfish
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1436447513) SRandInit(1436447513).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.086162
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.04-20.39.22:428][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-20.39.22:428][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.04-20.39.22:436][  0]LogInit: Computer: TOMLAPTOP-PC
+[2017.05.04-20.39.22:436][  0]LogInit: User: Tom
+[2017.05.04-20.39.22:436][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.04-20.39.22:436][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2017.05.04-20.39.22:436][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.04-20.39.22:436][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.04-20.39.22:436][  0]LogMemory: Process Physical Memory: 265.30 MB used, 265.30 MB peak
+[2017.05.04-20.39.22:436][  0]LogMemory: Process Virtual Memory: 263.41 MB used, 263.41 MB peak
+[2017.05.04-20.39.22:436][  0]LogMemory: Physical Memory: 6482.29 MB used,  9765.46 MB free, 16247.75 MB total
+[2017.05.04-20.39.22:436][  0]LogMemory: Virtual Memory: 645.86 MB used,  9765.46 MB free, 134217728.00 MB total
+[2017.05.04-20.39.22:526][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.04-20.39.23:149][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.04-20.39.23:762][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.05.04-20.39.23:762][  0]LogD3D11RHI:       6108/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.04-20.39.23:772][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.05.04-20.39.23:772][  0]LogD3D11RHI:       128/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.04-20.39.23:774][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.04-20.39.23:774][  0]LogD3D11RHI:       0/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.04-20.39.23:774][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.04-20.39.23:778][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.04-20.39.23:778][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.04-20.39.23:778][  0]LogWindows: EnumDisplayDevices:
+[2017.05.04-20.39.23:778][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.05.04-20.39.23:779][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.04-20.39.23:779][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.05.04-20.39.23:779][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.04-20.39.23:779][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.05.04-20.39.23:779][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.04-20.39.23:779][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.04-20.39.23:779][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.04-20.39.24:335][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2017.05.04-20.39.24:335][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.04-20.39.24:374][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.04-20.39.24:375][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Repo/CISC374_Team4/Lionfish/Intermediate/Shaders/WorkingDirectory/12856/).
+[2017.05.04-20.39.24:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/D0F7D9464EF2A8E3B6079E88F225F16C/'.
+[2017.05.04-20.39.24:375][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.04-20.39.25:470][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.04-20.39.25:526][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.04-20.39.25:586][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.04-20.39.25:641][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.04-20.39.25:700][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.04-20.39.25:755][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.04-20.39.25:809][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.04-20.39.25:863][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.04-20.39.25:910][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.04-20.39.25:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.04-20.39.26:025][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.04-20.39.26:084][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.04-20.39.26:140][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.04-20.39.26:193][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.04-20.39.26:248][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.04-20.39.26:361][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.04-20.39.26:361][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.04-20.39.26:399][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.04-20.39.26:505][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.04-20.39.26:542][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.04-20.39.26:596][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.04-20.39.26:649][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.04-20.39.26:703][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.04-20.39.26:755][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.04-20.39.26:755][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.04-20.39.27:235][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Repo/CISC374_Team4/Lionfish/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Repo/CISC374_Team4/Lionfish/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.04-20.39.27:289][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.04-20.39.27:310][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.04-20.39.27:322][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.04-20.39.27:331][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.04-20.39.27:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-20.39.27:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.04-20.39.27:656][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.04-20.39.27:658][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.04-20.39.27:883][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.04-20.39.27:930][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.04-20.39.27:983][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.04-20.39.27:983][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.04-20.39.27:983][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.04-20.39.28:538][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: lionfish, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3667421609
+[2017.05.04-20.39.28:586][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2017.05.04-20.39.28:644][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026922 seconds
+[2017.05.04-20.39.28:651][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.04-20.39.28:651][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.04-20.39.28:651][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.04-20.39.28:734][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.04-20.39.30:516][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.04-20.39.30:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.04-20.39.31:022][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.04-20.39.31:420][  0]SourceControl: Info Source control is disabled
+[2017.05.04-20.39.33:433][  0]LogEngine: Initializing Engine...
+[2017.05.04-20.39.33:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.04-20.39.33:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.04-20.39.33:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.04-20.39.33:680][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.04-20.39.33:694][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.04-20.39.33:766][  0]LogInit: FAudioDevice initialized.
+[2017.05.04-20.39.33:790][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Tom/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.04-20.39.33:798][  0]LogInit: Texture streaming: Enabled
+[2017.05.04-20.39.33:900][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.04-20.39.33:993][  0]LogInit: Transaction tracking system initialized
+[2017.05.04-20.39.34:335][  0]BlueprintLog: New page: Editor Load
+[2017.05.04-20.39.35:231][  0]LocalizationService: Info Localization service is disabled
+[2017.05.04-20.39.35:890][  0]LogConsoleResponse:Display: 
+[2017.05.04-20.39.36:024][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.04-20.39.36:024][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.04-20.39.36:249][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/' took 0.02s
+[2017.05.04-20.39.37:277][  0]Cmd: MAP LOAD FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.04-20.39.37:277][  0]LightingResults: New page: Lighting Build
+[2017.05.04-20.39.37:318][  0]MapCheck: New page: Map Check
+[2017.05.04-20.39.37:318][  0]LightingResults: New page: Lighting Build
+[2017.05.04-20.39.37:909][  0]LogLinker:Warning: Asset 'D:/Repo/CISC374_Team4/Lionfish/Content/Meshes/Water_04/Water/Textures/water.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.05.04-20.39.38:399][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.05.04-20.39.38:430][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.04-20.39.38:431][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.04-20.39.38:483][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.252ms to complete.
+[2017.05.04-20.39.38:483][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.207
+[2017.05.04-20.39.38:547][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-20.39.38:709][  0]LogCollectionManager: Loaded 0 collections in 0.001969 seconds
+[2017.05.04-20.39.38:798][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Saved/Collections/' took 0.01s
+[2017.05.04-20.39.38:798][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/Developers/Tom/Collections/' took 0.01s
+[2017.05.04-20.39.38:798][  0]LogFileCache: Scanning file cache for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/Collections/' took 0.01s
+[2017.05.04-20.39.38:798][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.04-20.39.38:808][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2245 classes and 453 folders.
+[2017.05.04-20.39.38:877][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.05.04-20.39.38:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.04-20.39.38:968][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.04-20.39.39:025][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.04-20.39.39:034][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.04-20.39.39:099][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.04-20.39.39:099][  0]LogLoad: (Engine Initialization) Total time: 18.80 seconds
+[2017.05.04-20.39.39:099][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.37 seconds
+[2017.05.04-20.39.39:099][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.04-20.39.39:099][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.04-20.39.39:110][  0]LogOcInput: OculusInput pre-init called
+[2017.05.04-20.39.39:140][  0]SourceControl: Info On branch master
+[2017.05.04-20.39.39:140][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.05.04-20.39.39:140][  0]SourceControl: Info Changes not staged for commit:
+[2017.05.04-20.39.39:140][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.05.04-20.39.39:140][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.04-20.39.39:140][  0]SourceControl: Info 	modified:   Lionfish/Intermediate/CachedAssetRegistry.bin
+[2017.05.04-20.39.39:140][  0]SourceControl: Info 	modified:   Lionfish/Saved/Config/Windows/Engine.ini
+[2017.05.04-20.39.39:140][  0]SourceControl: Info 	modified:   Lionfish/Saved/Logs/Lionfish.log
+[2017.05.04-20.39.39:140][  0]SourceControl: Info 	deleted:    Lionfish/Saved/Logs/Lionfish_2-backup-2017.05.02-12.43.13.log
+[2017.05.04-20.39.39:140][  0]SourceControl: Info Untracked files:
+[2017.05.04-20.39.39:140][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.05.04-20.39.39:140][  0]SourceControl: Info 	Lionfish/Saved/Logs/Lionfish-backup-2017.05.04-16.39.21.log
+[2017.05.04-20.39.39:141][  0]SourceControl: Info 	Lionfish/Saved/Logs/UE4CC-Windows-56397A654AC59769282C41827D5BB03D/
+[2017.05.04-20.39.39:141][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.04-20.39.39:141][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.04-20.39.39:142][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.04-20.39.39:146][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.04-20.39.39:151][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.04-20.39.39:295][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2017.05.04-20.39.39:371][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-20.39.39:437][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Repo/CISC374_Team4/Lionfish/Content/' took 0.32s
+[2017.05.04-20.39.39:447][  1]LogAssetRegistry: Asset discovery search completed in 10.8840 seconds
+[2017.05.04-20.39.39:448][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.05.04-20.39.39:448][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.05.04-20.48.56:582][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water)
+[2017.05.04-20.49.34:954][132]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-20.49.35:406][132]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.05.04-20.49.36:203][132]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.04-20.49.36:204][132]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.04-20.50.21:182][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.032
+[2017.05.04-20.50.21:183][387]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/LionfishLabel] ([1] browsable assets)...
+[2017.05.04-20.50.21:183][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/LionfishLabel]
+[2017.05.04-20.50.21:198][387]LogSavePackage: Save=13.24ms
+[2017.05.04-20.50.21:198][387]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel_Auto1C570CCFE4B2B659276D144B8DE44056A.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto1.uasset'
+[2017.05.04-20.50.21:199][387]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto1.uasset
+[2017.05.04-20.50.21:199][387]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.05.04-22.01.53:148][761]LogSlate: Took 0.021796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.04-22.02.16:831][685]LogSlate: Took 0.002094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.04-22.02.20:375][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-22.02.20:383][993]LogSavePackage: Save=6.62ms
+[2017.05.04-22.02.20:383][993]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel2BFA716B44917523CB45A68B6DAF1E0E.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-22.02.20:384][993]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-22.02.21:067][ 41]BlueprintLog: New page: Compile LionfishLabel
+[2017.05.04-22.08.19:011][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.017
+[2017.05.04-22.08.19:012][616]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/LionfishLabel] ([1] browsable assets)...
+[2017.05.04-22.08.19:012][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/LionfishLabel]
+[2017.05.04-22.08.19:022][616]LogSavePackage: Save=6.00ms
+[2017.05.04-22.08.19:022][616]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel_Auto2A66991A949ACEB21C7ECF89778269267.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto2.uasset'
+[2017.05.04-22.08.19:023][616]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto2.uasset
+[2017.05.04-22.08.19:023][616]LogFileHelpers: Auto-saving content packages took 0.011
+[2017.05.04-22.08.54:763][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-22.08.54:770][883]LogSavePackage: Save=5.55ms
+[2017.05.04-22.08.54:770][883]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel74FEAB9D4EE0974A0A183DAF86900B88.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-22.08.55:057][883]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-22.09.16:923][177]BlueprintLog: New page: Compile LionfishLabel
+[2017.05.04-22.09.52:441][146]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.04-22.10.05:794][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-22.10.05:801][423]LogSavePackage: Save=6.84ms
+[2017.05.04-22.10.05:801][423]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabelE1D444614E57F518C7A1D6861F7923FC.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-22.10.05:853][423]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-22.11.47:971][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-22.11.47:979][484]LogSavePackage: Save=7.16ms
+[2017.05.04-22.11.47:979][484]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabelB1D8DB1B40B2726D2851CA9B5A0D8357.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-22.11.48:288][484]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-22.17.04:731][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-22.17.04:745][289]LogSavePackage: Save=12.32ms
+[2017.05.04-22.17.04:745][289]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel77E95E7048D472CD2D9C4391DCA0051B.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-22.17.05:058][289]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-22.17.06:175][365]BlueprintLog: New page: Compile LionfishLabel
+[2017.05.04-22.49.05:188][ 54]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.019
+[2017.05.04-22.49.05:190][ 54]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TextStruct] ([1] browsable assets)...
+[2017.05.04-22.49.05:190][ 54]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TextStruct]
+[2017.05.04-22.49.05:190][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TextStruct" FILE="D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/TextStruct_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.05.04-22.49.05:195][ 54]LogSavePackage: Save=3.31ms
+[2017.05.04-22.49.05:195][ 54]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/TextStruct_Auto394E18DC648D97ADA000680AC148148D2.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/TextStruct_Auto3.uasset'
+[2017.05.04-22.49.05:197][ 54]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/TextStruct_Auto3.uasset
+[2017.05.04-22.49.05:197][ 54]LogFileHelpers: Auto-saving content packages took 0.008
+[2017.05.04-22.52.43:166][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TextStruct" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/TextStruct.uasset" SILENT=true
+[2017.05.04-22.52.43:169][558]LogSavePackage: Save=1.45ms
+[2017.05.04-22.52.43:169][558]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/TextStruct9B6710B1440380D7F3DCB8B05AFF6002.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/TextStruct.uasset'
+[2017.05.04-22.52.43:169][558]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/TextStruct.uasset
+[2017.05.04-23.04.25:883][505]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.021
+[2017.05.04-23.04.25:884][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/LionfishLabel] ([1] browsable assets)...
+[2017.05.04-23.04.25:884][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/LionfishLabel]
+[2017.05.04-23.04.26:159][505]LogSavePackage: Save=14.55ms
+[2017.05.04-23.04.26:159][505]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel_Auto452C4E9254945B12F4BDD2DAB119724B2.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto4.uasset'
+[2017.05.04-23.04.26:161][505]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Saved/Autosaves/Game/TopDownBP/Blueprints/LionfishLabel_Auto4.uasset
+[2017.05.04-23.04.26:161][505]LogFileHelpers: Auto-saving content packages took 0.277
+[2017.05.04-23.05.57:919][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.05.04-23.05.58:248][327]LogSavePackage: Save=71.99ms
+[2017.05.04-23.05.58:248][327]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUDE6696A3C4A7A003B10AC81B3A84BB887.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.05.04-23.05.58:319][327]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.05.04-23.05.58:779][354]BlueprintLog: New page: Compile HUD
+[2017.05.04-23.10.51:208][776]BlueprintLog: New page: Compile HUD
+[2017.05.04-23.11.01:861][389]BlueprintLog: New page: Compile HUD
+[2017.05.04-23.11.02:805][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.05.04-23.11.02:884][428]LogSavePackage: Save=74.93ms
+[2017.05.04-23.11.02:884][428]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUD6DA653DD40876712AEE679B4743963B5.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.05.04-23.11.02:923][428]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.05.04-23.11.34:126][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning Input Axis Event references unknown Axis 'UpLook' for  InputAxis UpLook
+[2017.05.04-23.11.34:127][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-23.11.34:133][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.84] Compile of MyCharacter successful, but with 2 Warning(s) [in 15 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:133][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.84] Compile of MyCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:133][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.84] Compile of MyCharacter successful, but with 4 Warning(s) [in 0 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:145][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning Input Axis Event references unknown Axis 'UpLook' for  InputAxis UpLook
+[2017.05.04-23.11.34:145][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2017.05.04-23.11.34:153][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.86] Compile of MyCharacter successful, but with 2 Warning(s) [in 16 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:153][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.86] Compile of MyCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:153][889]LogBlueprint:Warning: [Compiler MyCharacter] Warning [9133.86] Compile of MyCharacter successful, but with 4 Warning(s) [in 0 ms] (/Game/Player_Assets/Blueprints/MyCharacter.MyCharacter)
+[2017.05.04-23.11.34:473][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0) Not registered. Aborting.
+[2017.05.04-23.11.34:502][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1) Not registered. Aborting.
+[2017.05.04-23.11.34:530][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_2) Not registered. Aborting.
+[2017.05.04-23.11.34:552][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_3) Not registered. Aborting.
+[2017.05.04-23.11.34:575][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_4) Not registered. Aborting.
+[2017.05.04-23.11.34:587][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_5) Not registered. Aborting.
+[2017.05.04-23.11.34:588][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_6) Not registered. Aborting.
+[2017.05.04-23.11.34:588][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_7) Not registered. Aborting.
+[2017.05.04-23.11.34:588][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_8) Not registered. Aborting.
+[2017.05.04-23.11.34:589][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_9) Not registered. Aborting.
+[2017.05.04-23.11.34:589][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_10) Not registered. Aborting.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_16.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_17.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_18.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_19.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_2.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_20.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_21.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_3.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_4.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_5.
+[2017.05.04-23.11.34:589][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_highend.example_map_highend:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_6.
+[2017.05.04-23.11.34:596][889]LogMaterial: Missing cached shader map for material M_landscape, compiling. 
+[2017.05.04-23.11.34:597][889]LogTemp:Display: Added material ShaderMap 0x000001DFAF12B200 with Material 0x000001DFAF143D00 to ShaderMapsBeingCompiled
+[2017.05.04-23.11.34:654][889]LogTemp:Display: Kicking off shader compilation for M_landscape, GameThreadShaderMap 0x000001DFAF12B200
+[2017.05.04-23.11.34:663][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.05.04-23.11.34:664][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-23.11.34:692][889]LogAIModule: Creating AISystem for world example_map_highend
+[2017.05.04-23.11.34:693][889]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.34:780][889]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/example_map_highend.example_map_highend:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.34:958][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.35:165][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:305][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:308][889]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.04-23.11.39:314][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:317][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:320][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:322][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:326][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:385][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:388][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:391][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:394][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:398][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:638][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:645][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:649][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:650][889]LogSavePackage: Save=4789.58ms
+[2017.05.04-23.11.39:653][889]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_highend3F7F98734FDB7E878B0F22ACBE0A52C5.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap'
+[2017.05.04-23.11.39:660][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:663][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.39:664][889]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap
+[2017.05.04-23.11.39:828][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_0) Not registered. Aborting.
+[2017.05.04-23.11.39:836][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_1) Not registered. Aborting.
+[2017.05.04-23.11.39:842][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_2) Not registered. Aborting.
+[2017.05.04-23.11.39:849][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_3) Not registered. Aborting.
+[2017.05.04-23.11.39:855][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_4) Not registered. Aborting.
+[2017.05.04-23.11.39:863][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_5) Not registered. Aborting.
+[2017.05.04-23.11.39:866][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_6) Not registered. Aborting.
+[2017.05.04-23.11.39:866][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_7) Not registered. Aborting.
+[2017.05.04-23.11.39:866][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_8) Not registered. Aborting.
+[2017.05.04-23.11.39:866][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_9) Not registered. Aborting.
+[2017.05.04-23.11.39:866][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_10) Not registered. Aborting.
+[2017.05.04-23.11.39:867][889]LogActorComponent: UnregisterComponent: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_11) Not registered. Aborting.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_0.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_1.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_10.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_11.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_2.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_3.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_4.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_5.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_6.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_7.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_8.
+[2017.05.04-23.11.39:867][889]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_9.
+[2017.05.04-23.11.39:893][889]LogTemp:Display: Added shader map 0x000001DFAF12B200 from material 0x000001DFA77CB400
+[2017.05.04-23.11.39:893][889]LogTemp:Display: Found existing compiling shader for material M_landscape, linking to other GameThreadShaderMap 0x000001DFAF12B200
+[2017.05.04-23.11.39:912][889]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.05.04-23.11.39:913][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-23.11.39:922][889]LogAIModule: Creating AISystem for world example_map_lowend
+[2017.05.04-23.11.39:923][889]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.39:947][889]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.40:054][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.40:094][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.40:114][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:258][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:261][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:264][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:266][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:269][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:302][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:306][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:309][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:312][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:315][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:377][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:381][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:384][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:384][889]LogSavePackage: Save=1361.20ms
+[2017.05.04-23.11.41:385][889]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_lowend68ED51DC45B8DB16020E9BABE9D72282.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap'
+[2017.05.04-23.11.41:390][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:394][889]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:394][889]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap
+[2017.05.04-23.11.41:438][890]LogTemp:Display: Finished compile of shader map 0x000001DFAF12B200
+[2017.05.04-23.11.41:438][890]LogTemp:Display: Shader map M_landscape complete, GameThreadShaderMap 0x000001DFAF12B200, marking material M_landscape as finished
+[2017.05.04-23.11.41:438][890]LogTemp:Display: Marking material as finished 0x000001DFAF143D00
+[2017.05.04-23.11.41:439][890]LogTemp:Display: Shader map M_landscape complete, GameThreadShaderMap 0x000001DFAF12B200, marking material M_landscape as finished
+[2017.05.04-23.11.41:439][890]LogTemp:Display: Marking material as finished 0x000001DFA77CB400
+[2017.05.04-23.11.41:513][890]LogUObjectGlobals:Warning: Guid referenced by Landscape /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.Landscape_0 is already used by Landscape /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.Landscape_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.04-23.11.41:513][890]LogUObjectGlobals:Warning: Guid referenced by LandscapeComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.Landscape_0.LandscapeComponent_0 is already used by LandscapeComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.Landscape_0.LandscapeComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.04-23.11.41:516][890]LogUObjectGlobals:Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0 is already used by LandscapeHeightfieldCollisionComponent /Game/Maps/example_map_lowend.example_map_lowend:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.05.04-23.11.41:540][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_0) Not registered. Aborting.
+[2017.05.04-23.11.41:546][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_1) Not registered. Aborting.
+[2017.05.04-23.11.41:551][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_2) Not registered. Aborting.
+[2017.05.04-23.11.41:558][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_3) Not registered. Aborting.
+[2017.05.04-23.11.41:563][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_4) Not registered. Aborting.
+[2017.05.04-23.11.41:569][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_5) Not registered. Aborting.
+[2017.05.04-23.11.41:572][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_6) Not registered. Aborting.
+[2017.05.04-23.11.41:572][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_7) Not registered. Aborting.
+[2017.05.04-23.11.41:572][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_8) Not registered. Aborting.
+[2017.05.04-23.11.41:572][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_9) Not registered. Aborting.
+[2017.05.04-23.11.41:573][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_10) Not registered. Aborting.
+[2017.05.04-23.11.41:573][890]LogActorComponent: UnregisterComponent: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_11) Not registered. Aborting.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_0.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_1.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_10.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_11.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_2.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_3.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_4.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_5.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_6.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_7.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_8.
+[2017.05.04-23.11.41:573][890]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/Maps/screenshot_map.screenshot_map:PersistentLevel.InstancedFoliageActor_1.HierarchicalInstancedStaticMeshComponent_9.
+[2017.05.04-23.11.41:604][890]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.05.04-23.11.41:606][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.04-23.11.41:608][890]LogAIModule: Creating AISystem for world screenshot_map
+[2017.05.04-23.11.41:608][890]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.41:628][890]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/screenshot_map.screenshot_map:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.41:734][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.41:769][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:824][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:828][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:831][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:833][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:837][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:839][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:869][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:873][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:876][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:879][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:883][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:941][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:945][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:947][890]LogSavePackage: Save=1244.31ms
+[2017.05.04-23.11.42:948][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:948][890]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/screenshot_mapD99A0DF643469DF86B260EA1187AB43B.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap'
+[2017.05.04-23.11.42:954][890]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.42:955][890]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap
+[2017.05.04-23.11.43:152][891]LogAIModule: Creating AISystem for world showcase_map
+[2017.05.04-23.11.43:152][891]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/showcase_map.showcase_map:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.43:176][891]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/showcase_map.showcase_map:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.43:232][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:248][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:519][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:523][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:526][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:529][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:532][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:536][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:566][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:569][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:572][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:575][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:582][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:600][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:603][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:964][891]LogSavePackage: Save=752.40ms
+[2017.05.04-23.11.43:966][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.43:966][891]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/showcase_map7783E3AD4D322DC16B2765B905579044.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap'
+[2017.05.04-23.11.44:150][891]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:152][891]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap
+[2017.05.04-23.11.44:530][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:590][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:619][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:622][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:625][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:628][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:631][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:634][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:647][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:650][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:653][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:655][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:660][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:671][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:674][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:681][892]LogSavePackage: Save=169.83ms
+[2017.05.04-23.11.44:682][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:682][892]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/BP_LightStudioCF3AF86148B76DF8E74D758493A2F9D8.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.05.04-23.11.44:701][892]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:703][892]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.05.04-23.11.44:744][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:757][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:767][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:770][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:774][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:776][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:779][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:781][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:794][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:796][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:800][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:803][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:806][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:811][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:813][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:815][893]LogSavePackage: Save=88.60ms
+[2017.05.04-23.11.44:816][893]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/MyCharacterF55075BD4180EFCB7BCA0F895E0CA376.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Blueprints/MyCharacter.uasset'
+[2017.05.04-23.11.44:832][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:836][893]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:837][893]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Blueprints/MyCharacter.uasset
+[2017.05.04-23.11.44:915][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:918][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:920][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:922][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:924][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:926][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:928][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:930][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:936][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:939][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:942][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:944][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:946][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:949][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:951][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:955][894]LogSavePackage: Save=66.68ms
+[2017.05.04-23.11.44:956][894]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/MyGameCCF122DD4792095E06FAE8903013AAB6.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Blueprints/MyGame.uasset'
+[2017.05.04-23.11.44:978][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:981][894]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.44:981][894]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Blueprints/MyGame.uasset
+[2017.05.04-23.11.45:020][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:033][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:043][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:046][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:050][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:052][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:055][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:057][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:062][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:065][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:067][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:070][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:073][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:078][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:080][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:111][895]LogSavePackage: Save=102.68ms
+[2017.05.04-23.11.45:112][895]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HeroTPP_AnimBlueprint46A009044194D2880C94A992DFD3ED42.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Character/HeroTPP_AnimBlueprint.uasset'
+[2017.05.04-23.11.45:124][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:126][895]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:127][895]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Player_Assets/Character/HeroTPP_AnimBlueprint.uasset
+[2017.05.04-23.11.45:191][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:196][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:202][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:205][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:207][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:209][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:211][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:214][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:219][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:221][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:225][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:227][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:229][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:232][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:234][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:236][896]LogSavePackage: Save=60.46ms
+[2017.05.04-23.11.45:237][896]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_CeilingLight534EDEEA45BBE9ACEE3715ABAD4D83AA.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.05.04-23.11.45:269][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:272][896]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:273][896]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.05.04-23.11.45:371][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:374][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:377][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:379][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:383][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:385][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:387][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:389][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:395][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:398][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:401][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:404][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:407][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:409][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:412][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:413][897]LogSavePackage: Save=52.99ms
+[2017.05.04-23.11.45:414][897]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_Effect_Explosion235AFFB64543E6551759CDBAE38E010D.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.05.04-23.11.45:437][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:440][897]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:440][897]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.05.04-23.11.45:507][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:510][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:513][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:516][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:519][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:521][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:523][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:525][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:531][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:534][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:536][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:538][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:541][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:543][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:545][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:546][898]LogSavePackage: Save=48.52ms
+[2017.05.04-23.11.45:547][898]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_Effect_Fire81ED5A1A44BDDF735C6B4A93793817A7.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.05.04-23.11.45:563][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:566][898]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:567][898]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.05.04-23.11.45:612][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:616][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:619][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:621][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:623][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:625][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:627][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:629][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:636][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:638][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:640][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:642][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:644][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:646][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:649][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:650][899]LogSavePackage: Save=49.11ms
+[2017.05.04-23.11.45:651][899]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_Effect_SmokeABB5FDB8489A955C248D17B9B7622E50.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.05.04-23.11.45:663][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:666][899]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:666][899]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.05.04-23.11.45:719][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:721][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:725][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:728][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:732][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:734][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:737][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:739][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:745][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:748][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:750][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:752][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:754][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:756][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:758][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:759][900]LogSavePackage: Save=51.08ms
+[2017.05.04-23.11.45:759][900]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_Effect_Sparks784702AE4FA070E4E261D995C72D5BDB.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.05.04-23.11.45:784][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:787][900]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:787][900]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.05.04-23.11.45:832][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:835][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:840][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:842][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:845][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:851][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:854][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:856][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:863][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:866][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:869][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:873][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:876][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:878][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:882][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:884][901]LogSavePackage: Save=62.03ms
+[2017.05.04-23.11.45:884][901]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_Effect_Steam21A5796C4F45E62DF6B97EA5AEBBDE08.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.05.04-23.11.45:900][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:903][901]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:903][901]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.05.04-23.11.45:953][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:959][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:964][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:967][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:969][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:971][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:974][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:976][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:982][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:984][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:987][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:989][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:991][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:994][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:996][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.45:998][902]LogSavePackage: Save=55.39ms
+[2017.05.04-23.11.45:999][902]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Blueprint_WallSconce2223CCBE410B7BC63434389CDC050DFD.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.05.04-23.11.46:001][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:003][902]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:003][902]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.05.04-23.11.46:100][903]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.04-23.11.46:101][903]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.46:126][903]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.46:177][903]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Minimal_Default, Actor: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_2
+[2017.05.04-23.11.46:315][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:319][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:336][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:339][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:342][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:344][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:347][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:350][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:362][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:365][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:367][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:369][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:371][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:375][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:377][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:382][903]LogSavePackage: Save=218.09ms
+[2017.05.04-23.11.46:383][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:383][903]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Minimal_DefaultC3A94222405BA4BBC440749649F7416C.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.05.04-23.11.46:417][903]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.46:419][903]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.04-23.11.46:957][904]LogAIModule: Creating AISystem for world StarterMap
+[2017.05.04-23.11.46:957][904]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.47:049][904]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.04-23.11.47:271][904]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: StarterMap, Actor: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap_C_1
+[2017.05.04-23.11.47:405][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:423][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:595][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:598][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:602][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:605][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:608][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:612][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:645][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:648][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:651][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:653][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:656][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:674][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:676][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:709][904]LogSavePackage: Save=619.89ms
+[2017.05.04-23.11.47:709][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:710][904]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/StarterMapBAE3D066431F09B5B7BCF2A28E984D16.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/StarterMap.umap'
+[2017.05.04-23.11.47:721][904]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.11.47:723][904]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/StarterMap.umap
+[2017.05.04-23.11.59:909][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.00:005][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:205][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:213][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:215][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:220][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:223][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:226][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:283][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:286][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:289][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:292][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:295][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:528][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:533][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:537][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:538][384]LogSavePackage: Save=3644.43ms
+[2017.05.04-23.12.03:540][384]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_highend315930824592FE03126F359BD89A4879.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap'
+[2017.05.04-23.12.03:547][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:551][384]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:551][384]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap
+[2017.05.04-23.12.03:627][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.03:666][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:826][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:829][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:832][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:836][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:839][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:843][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:873][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:876][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:878][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:881][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:885][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:953][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:956][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:958][385]LogSavePackage: Save=1344.32ms
+[2017.05.04-23.12.04:959][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:959][385]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_lowendCD3EB04D41063C6EC02F56AC3032A31F.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap'
+[2017.05.04-23.12.04:965][385]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.04:967][385]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap
+[2017.05.04-23.12.05:041][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.05:077][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:104][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:107][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:109][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:112][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:115][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:117][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:145][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:151][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:153][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:155][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:159][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:258][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:262][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:264][386]LogSavePackage: Save=1241.61ms
+[2017.05.04-23.12.06:265][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:266][386]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/screenshot_mapC44FDA0E4C7A2510DDF4CDB1492BADE3.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap'
+[2017.05.04-23.12.06:271][386]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:272][386]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap
+[2017.05.04-23.12.06:348][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:367][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:640][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:643][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:646][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:649][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:651][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:655][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:684][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:686][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:689][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:692][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:699][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:716][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:719][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:727][387]LogSavePackage: Save=393.68ms
+[2017.05.04-23.12.06:728][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:728][387]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/showcase_map7DB6384F4424F85AB7F4CF9803FB5E01.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap'
+[2017.05.04-23.12.06:944][387]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.05.04-23.12.06:948][387]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap
+[2017.05.04-23.12.11:306][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/HUD" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset" SILENT=true
+[2017.05.04-23.12.11:378][642]LogSavePackage: Save=70.78ms
+[2017.05.04-23.12.11:378][642]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/HUD71AC7B9149F8C7219F28DBB8B6C7271A.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset'
+[2017.05.04-23.12.11:460][642]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/HUD.uasset
+[2017.05.04-23.12.12:098][680]BlueprintLog: New page: Compile HUD
+[2017.05.04-23.12.12:148][680]LogClass:Warning: Type mismatch in NextSkillPoint of HUD_C - Previous (FloatProperty) Current(IntProperty) for package:  FObjectReader
+[2017.05.04-23.12.18:896][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/example_map_highend" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.22:520][926]LogSavePackage: Save=3596.92ms
+[2017.05.04-23.12.22:520][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_highendCEA47CEE40345BAD3FA7309FAA54767E.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap'
+[2017.05.04-23.12.22:526][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_highend.umap
+[2017.05.04-23.12.22:540][926]LogFileHelpers: Saving map 'example_map_highend' took 3.722
+[2017.05.04-23.12.22:617][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/example_map_lowend" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.23:925][926]LogSavePackage: Save=1285.81ms
+[2017.05.04-23.12.23:925][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/example_map_lowend9139C3534FA6C4DD74C1C5A92ACE819D.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap'
+[2017.05.04-23.12.23:928][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/example_map_lowend.umap
+[2017.05.04-23.12.23:935][926]LogFileHelpers: Saving map 'example_map_lowend' took 1.392
+[2017.05.04-23.12.24:014][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/screenshot_map" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.25:178][926]LogSavePackage: Save=1142.34ms
+[2017.05.04-23.12.25:178][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/screenshot_mapCD8F42DD4FEC4D5C3424FD950A1BAACD.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap'
+[2017.05.04-23.12.25:181][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/screenshot_map.umap
+[2017.05.04-23.12.25:188][926]LogFileHelpers: Saving map 'screenshot_map' took 1.250
+[2017.05.04-23.12.25:264][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/showcase_map" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.25:633][926]LogSavePackage: Save=339.98ms
+[2017.05.04-23.12.25:633][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/showcase_mapD2308E114BC8E3C6DC4C968E2B20545B.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap'
+[2017.05.04-23.12.25:714][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/Maps/showcase_map.umap
+[2017.05.04-23.12.25:724][926]LogFileHelpers: Saving map 'showcase_map' took 0.533
+[2017.05.04-23.12.25:803][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.25:826][926]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: Minimal_Default, Actor: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default_C_0
+[2017.05.04-23.12.25:980][926]LogSavePackage: Save=154.67ms
+[2017.05.04-23.12.25:980][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/Minimal_DefaultA6A0C7394B3FAC93CE1BC7A4204DAA93.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.05.04-23.12.26:025][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.04-23.12.26:027][926]LogFileHelpers: Saving map 'Minimal_Default' took 0.300
+[2017.05.04-23.12.26:111][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/StarterMap" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/StarterMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.04-23.12.26:145][926]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: StarterMap, Actor: /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.StarterMap_C_0
+[2017.05.04-23.12.26:511][926]LogSavePackage: Save=370.42ms
+[2017.05.04-23.12.26:511][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/StarterMap05A9A803492023E84E0991BF44CED84F.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/StarterMap.umap'
+[2017.05.04-23.12.26:743][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/StarterContent/Maps/StarterMap.umap
+[2017.05.04-23.12.26:755][926]LogFileHelpers: Saving map 'StarterMap' took 0.725
+[2017.05.04-23.12.26:758][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/LionfishLabel" FILE="D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset" SILENT=true
+[2017.05.04-23.12.26:773][926]LogSavePackage: Save=11.53ms
+[2017.05.04-23.12.26:773][926]LogSavePackage: Moving 'D:/Repo/CISC374_Team4/Lionfish/Saved/LionfishLabel455FAA544AC6FE0F4F1A43A07F436FAA.tmp' to 'D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset'
+[2017.05.04-23.12.26:791][926]LogSavePackage:Display: Finished SavePackage D:/Repo/CISC374_Team4/Lionfish/Content/TopDownBP/Blueprints/LionfishLabel.uasset
+[2017.05.04-23.12.26:866][926]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.04-23.12.27:070][927]Cmd: QUIT_EDITOR
+[2017.05.04-23.12.27:148][927]LogExit: Preparing to exit.
+[2017.05.04-23.12.28:129][927]LogExit: Editor shut down
+[2017.05.04-23.12.28:129][927]LogExit: Transaction tracking system shut down
+[2017.05.04-23.12.28:259][927]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.04-23.12.28:259][927]LogExit: Object subsystem successfully closed.
+[2017.05.04-23.12.28:286][927]LogD3D11RHI: Shutdown
+[2017.05.04-23.12.28:286][927]LogD3D11RHI: CleanupD3DDevice
+[2017.05.04-23.12.28:417][927]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.04-23.12.28:435][927]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.04-23.12.28:435][927]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.04-23.12.28:436][927]LogDirectoryWatcher: A directory notification for 'D:/Repo/CISC374_Team4/Lionfish/Content/Collections/' was aborted.
+[2017.05.04-23.12.28:436][927]LogDirectoryWatcher: A directory notification for 'D:/Repo/CISC374_Team4/Lionfish/Content/Developers/Tom/Collections/' was aborted.
+[2017.05.04-23.12.28:436][927]LogDirectoryWatcher: A directory notification for 'D:/Repo/CISC374_Team4/Lionfish/Saved/Collections/' was aborted.
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.04-23.12.28:436][927]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.04-23.12.28:437][927]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.04-23.12.29:303][927]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.04-23.12.29:304][927]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.04-23.12.29:357][927]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.04-23.12.29:366][927]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.04-23.12.29:538][927]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.04-23.12.29:539][927]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.04-23.12.29:539][927]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.04-23.12.29:539][927]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.04-23.12.29:540][927]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.04-23.12.29:540][927]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.04-23.12.29:540][927]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.04-23.12.29:540][927]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.04-23.12.29:540][927]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.04-23.12.29:641][927]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.04-23.12.29:742][927]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.04-23.12.29:744][927]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.04-23.12.30:246][927]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.04-23.12.30:246][927]LogDirectoryWatcher: A directory notification for 'D:/Repo/CISC374_Team4/Lionfish/Content/' was aborted.
+[2017.05.04-23.12.30:246][927]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.04-23.12.30:246][927]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.04-23.12.30:247][927]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.04-23.12.30:249][927]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.04-23.12.30:302][927]LogDerivedDataCache: Shutdown
+[2017.05.04-23.12.30:302][927]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.04-23.12.30:302][927]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.04-23.12.30:303][927]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.04-23.12.30:303][927]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.04-23.12.30:303][927]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.04-23.12.30:303][927]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B92883CFB-4DC0-A630-7B6E-3694F15AB801%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=2e4b76604f3e80f4e272859a0e162e72%7C212a96a9574248b593db3b191e548d61%7Ce22d35a3-1943-4c03-9feb-ebbff7a15010&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.04-23.12.30:327][927]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.04-23.12.30:330][927]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.04-23.12.30:330][927]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.04-23.12.30:330][927]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.04-23.12.30:330][927]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.04-23.12.30:330][927]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.04-23.12.30:333][927]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.04-23.12.30:335][927]LogExit: Exiting.
+[2017.05.04-23.12.30:347][927]Log file closed, 05/04/17 19:12:30
